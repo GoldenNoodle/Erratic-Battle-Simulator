@@ -1,0 +1,4 @@
+repository "Coliseum of the Gods@GoldenNoodle@cloud"
+  path "/"
+    br "/main"
+    co "/main"
