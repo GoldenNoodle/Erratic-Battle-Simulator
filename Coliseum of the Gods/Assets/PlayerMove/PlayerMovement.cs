@@ -33,6 +33,7 @@ namespace GC
             cameraObject = Camera.main.transform;
             myTransform = transform;
             animationHandler.Initialize();
+            Application.targetFrameRate = 60;
         }
 
         public void Update()
@@ -42,6 +43,8 @@ namespace GC
             moveDirection = cameraObject.forward * inputHandler.vertical; // moves up and down
             moveDirection += cameraObject.right * inputHandler.horizontal; //moves left and right
             moveDirection.Normalize();
+            moveDirection.y = 0; //freezes movement in y direction so we dont randomy levitate off the ground
+
 
             float speed = movementSpeed;
             moveDirection *= speed;
@@ -56,6 +59,8 @@ namespace GC
             {
                 HandleRotation(delta);
             }
+
+
         }
 
         #region Movement
