@@ -13,12 +13,15 @@ namespace GC
         public float mouseX;
         public float mouseY;
 
+        public bool jumpInput;
+
         PlayerControls inputActions;
         CameraHandler cameraHandler;
 
         Vector2 movementInput;
         Vector2 cameraInput;
 
+        
         private void Awake()
         {
             cameraHandler = CameraHandler.singleton;
@@ -35,6 +38,7 @@ namespace GC
                 cameraHandler.HandleCameraRotation(delta, mouseX, mouseY);
             }
         }
+        
         
         public void OnEnable()
         {
@@ -56,6 +60,7 @@ namespace GC
         public void TickInput(float delta)
         {
             MoveInput(delta);
+            //HandleJumpInput();
         }
 
         private void MoveInput(float delta)
@@ -66,8 +71,14 @@ namespace GC
             mouseX = cameraInput.x;
             mouseY = cameraInput.y;
         }
-
-
+        
+        /*
+        private void HandleJumpInput()
+        {
+            inputActions.PlayerActions.Jump.performed += i => jumpInput = true;
+        }
+        */
+        
     }
 
 }

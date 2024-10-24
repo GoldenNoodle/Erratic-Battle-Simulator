@@ -6,6 +6,9 @@ namespace GC
 {
     public class AnimationHandler : MonoBehaviour
     {
+        PlayerManager playerManager;
+        InputHandling inputHandler;
+        PlayerMovement playerMovement;
         public Animator anim;
         int vertical;
         int horizontal;
@@ -13,6 +16,7 @@ namespace GC
 
         public void Initialize()
         {
+            playerManager = GetComponentInParent<PlayerManager>();
             anim = GetComponent<Animator>();
             vertical = Animator.StringToHash("Vertical");
             horizontal = Animator.StringToHash("Horizontal");
@@ -74,6 +78,15 @@ namespace GC
 
         }
 
+        /*
+        public void PlayerTargetAnimation(string targetAnim, bool isInteracting)
+        {
+            anim.applyRootMotion = isInteracting;
+            anim.SetBool("isInteracting", isInteracting);
+            anim.CrossFade(targetAnim, 0.2f);
+        }
+        */
+
         public void CanRotate()
         {
             canRotate = true;
@@ -83,5 +96,22 @@ namespace GC
         {
             canRotate = false;
         }
+
+        /*
+        private void OnAnimatorMove()
+        {
+            if (playerManager.isInteracting == false)
+                return;
+
+            float delta = Time.deltaTime;
+            playerMovement.rigidbody.drag = 0;
+            Vector3 deltaPosition = anim.deltaPosition;
+            deltaPosition.y = 0;
+            Vector3 velocity = deltaPosition / delta;
+            playerMovement.rigidbody.velocity = velocity;
+                
+        }
+        */
+        
     }
 }

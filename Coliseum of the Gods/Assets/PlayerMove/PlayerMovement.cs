@@ -6,6 +6,7 @@ namespace GC
 {
     public class PlayerMovement : MonoBehaviour
     {
+        PlayerManager playerManager;
         Transform cameraObject;
         InputHandling inputHandler;
         Vector3 moveDirection;
@@ -19,7 +20,7 @@ namespace GC
         public new Rigidbody rigidbody;
         public GameObject camera; //code referenced as a normalCamera and a lockOnCamera but this game will only need a normal camera
 
-        [Header("Stats")]
+        [Header("Movement Stats")]
         [SerializeField]
         float movementSpeed = 5;
         [SerializeField]
@@ -27,6 +28,7 @@ namespace GC
 
         void Start()
         {
+            playerManager = GetComponent<PlayerManager>();
             rigidbody = GetComponent<Rigidbody>();
             inputHandler = GetComponent<InputHandling>();
             animationHandler = GetComponentInChildren<AnimationHandler>(); //children because its going on player model under player game object
@@ -34,35 +36,19 @@ namespace GC
             myTransform = transform;
             animationHandler.Initialize();
             Application.targetFrameRate = 60;
+
         }
 
+        
         public void Update()
         {
             float delta = Time.deltaTime;
             inputHandler.TickInput(delta);
-            moveDirection = cameraObject.forward * inputHandler.vertical; // moves up and down
-            moveDirection += cameraObject.right * inputHandler.horizontal; //moves left and right
-            moveDirection.Normalize();
-            moveDirection.y = 0; //freezes movement in y direction so we dont randomy levitate off the ground
-
-
-            float speed = movementSpeed;
-            moveDirection *= speed;
-
-            Vector3 projectedVelocity = Vector3.ProjectOnPlane(moveDirection, normalVector);
-            rigidbody.velocity = projectedVelocity;
-
-            animationHandler.UpdateAnimatorValues(inputHandler.moveAmount, 0);
-
-
-            if (animationHandler.canRotate)
-            {
-                HandleRotation(delta);
-            }
+            HandleMovement(delta);
 
 
         }
-
+        
         #region Movement
         Vector3 normalVector;
         Vector3 targetPosition;
@@ -93,7 +79,52 @@ namespace GC
 
         }
 
+        public void HandleMovement(float delta)
+        {
+            moveDirection = cameraObject.forward * inputHandler.vertical; // moves up and down
+            moveDirection += cameraObject.right * inputHandler.horizontal; //moves left and right
+            moveDirection.Normalize();
+            moveDirection.y = 0; //freezes movement in y direction so we dont randomy levitate off the ground
+
+
+            float speed = movementSpeed;
+            moveDirection *= speed;
+
+            Vector3 projectedVelocity = Vector3.ProjectOnPlane(moveDirection, normalVector);
+            rigidbody.velocity = projectedVelocity;
+
+            animationHandler.UpdateAnimatorValues(inputHandler.moveAmount, 0);
+
+
+            if (animationHandler.canRotate)
+            {
+                HandleRotation(delta);
+            }
+        }
+
+        /*
+        public void HandleJumping()
+        {
+            if (playerManager.isInteracting)
+                return;
+
+            if (inputHandler.jumpInput)
+            {
+                if(inputHandler.moveAmount > 0)
+                {
+                    moveDirection = cameraObject.forward * inputHandler.vertical;
+                    moveDirection += cameraObject.right * inputHandler.horizontal;
+                    animationHandler.PlayerTargetAnimation("Jump", true);
+                    moveDirection.y = 0;
+                    Quaternion jumpRotation = Quaternion.LookRotation(moveDirection);
+                    myTransform.rotation = jumpRotation;
+                }
+            }
+        }
+        */
         #endregion
+
+
 
     }
 }
