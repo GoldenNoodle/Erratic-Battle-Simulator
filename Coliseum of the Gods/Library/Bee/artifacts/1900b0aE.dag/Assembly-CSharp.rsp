@@ -358,6 +358,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/CameraHandler.cs"
 "Assets/Scripts/MyAnimationHandler.cs"
+"Assets/Scripts/NPC/NPCManager.cs"
+"Assets/Scripts/NPC/NPCMovement.cs"
 "Assets/Scripts/PlayerManager.cs"
 "Assets/Scripts/PlayerMove/PlayerControls.cs"
 "Assets/Scripts/PlayerMove/PlayerMovement.cs"

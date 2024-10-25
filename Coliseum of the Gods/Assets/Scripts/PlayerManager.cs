@@ -8,7 +8,7 @@ namespace GC
     {
 		void Start()
 		{
-			MyCameraHandler.Instance.SetFollowedObject(this.gameObject);
+			//MyCameraHandler.Instance.SetFollowedObject(this.gameObject);
 		}
 
 		void Update()

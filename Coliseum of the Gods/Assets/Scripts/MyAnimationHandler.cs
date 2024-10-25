@@ -6,8 +6,6 @@ namespace GC
 {
 	public class MyAnimationHandler : MonoBehaviour
 	{
-		MyPlayerManager playerManager;
-		MyPlayerMovement playerMovement;
 		public Animator anim;
 		int vertical;
 		int horizontal;
@@ -15,7 +13,6 @@ namespace GC
 
 		public void Initialize()
 		{
-			playerManager = GetComponentInParent<MyPlayerManager>();
 			anim = GetComponent<Animator>();
 			vertical = Animator.StringToHash("Vertical");
 			horizontal = Animator.StringToHash("Horizontal");
