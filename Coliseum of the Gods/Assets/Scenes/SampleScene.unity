@@ -172,7 +172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 42c4c1c3088ddc040a3f2c8f9acee341, type: 3}
       propertyPath: m_Name
-      value: Md_Char_Low_Poly_Man
+      value: player_character_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -368,12 +368,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be98aa1473e9df4a9ab7f0584856262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myTransform: {fileID: 0}
-  animationHandler: {fileID: 0}
-  rigidbody: {fileID: 0}
-  camera: {fileID: 0}
-  movementSpeed: 5
-  rotationSpeed: 10
 --- !u!114 &428414086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -386,11 +380,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 264b754fd4642cc468c3055bac7f3032, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontal: 0
-  vertical: 0
-  moveAmount: 0
-  mouseX: 0
-  mouseY: 0
+  <MovementInput>k__BackingField: {x: 0, y: 0}
+  <CameraInput>k__BackingField: {x: 0, y: 0}
 --- !u!136 &428414087
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -531,17 +522,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8af1acb127b8bee439c03f06c2f5d878, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetTransform: {fileID: 837958026}
-  cameraTransform: {fileID: 963194228}
-  cameraPivotTransform: {fileID: 1137207076}
-  lookSpeed: 0.1
-  followSpeed: 0.1
-  pivotSpeed: 0.03
-  minPivot: -35
-  maxPivot: 35
-  cameraSphereRadius: 0.2
-  cameraCollisionOffset: 0.2
-  minCollisionOffset: 0.2
 --- !u!4 &657936975
 Transform:
   m_ObjectHideFlags: 0
@@ -684,12 +664,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be98aa1473e9df4a9ab7f0584856262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myTransform: {fileID: 0}
-  animationHandler: {fileID: 0}
-  rigidbody: {fileID: 0}
-  camera: {fileID: 0}
-  movementSpeed: 5
-  rotationSpeed: 10
 --- !u!114 &837958023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -702,11 +676,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 264b754fd4642cc468c3055bac7f3032, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontal: 0
-  vertical: 0
-  moveAmount: 0
-  mouseX: 0
-  mouseY: 0
+  <MovementInput>k__BackingField: {x: 0, y: 0}
+  <CameraInput>k__BackingField: {x: 0, y: 0}
 --- !u!136 &837958024
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -959,7 +930,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fa39df39a7d85724ab6ef052a0e8d803, type: 3}
       propertyPath: m_Name
-      value: character-soldier
+      value: player_character_0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
