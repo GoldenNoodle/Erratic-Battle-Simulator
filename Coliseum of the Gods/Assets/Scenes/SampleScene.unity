@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 428414088}
   - component: {fileID: 428414087}
   - component: {fileID: 428414086}
-  - component: {fileID: 428414085}
+  - component: {fileID: 428414090}
   m_Layer: 0
   m_Name: Player2
   m_TagString: Untagged
@@ -356,18 +356,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &428414085
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 428414084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3be98aa1473e9df4a9ab7f0584856262, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &428414086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,11 +365,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 428414084}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 264b754fd4642cc468c3055bac7f3032, type: 3}
+  m_Script: {fileID: 11500000, guid: b6e99016393641b4292015ed76532044, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <MovementInput>k__BackingField: {x: 0, y: 0}
-  <CameraInput>k__BackingField: {x: 0, y: 0}
 --- !u!136 &428414087
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -448,6 +434,18 @@ Transform:
   - {fileID: 41285446}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &428414090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428414084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994b7b04d48242a44a35156a6bdd6f62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &558519330 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fa39df39a7d85724ab6ef052a0e8d803, type: 3}
@@ -673,11 +671,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 837958021}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 264b754fd4642cc468c3055bac7f3032, type: 3}
+  m_Script: {fileID: 11500000, guid: 87b518ab470168f4e8a469288064d276, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <MovementInput>k__BackingField: {x: 0, y: 0}
-  <CameraInput>k__BackingField: {x: 0, y: 0}
 --- !u!136 &837958024
 CapsuleCollider:
   m_ObjectHideFlags: 0

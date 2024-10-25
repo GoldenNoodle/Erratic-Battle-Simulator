@@ -10,10 +10,12 @@ namespace GC
 	{
 		private Vector2 MovementInput;
 		private Vector2 CameraInput;
+		private Vector2 VirtualCursor = new Vector2(0, 0);
 		private PlayerControls InputActions;
 		private MyAnimationHandler AnimationHandler;
 
 		internal float MovementSpeedMetersPerSecond = 5;
+		internal float CameraRotationSpeedRotationsPerSecond = 360f;
 		internal MyPlayerManager PlayerManager;
 
 		private void Start()
@@ -26,17 +28,18 @@ namespace GC
 
 		private void Update()
 		{
-			Vector2 mouse_pos = Mouse.current.position.ReadValue();
-			double relative_x = ((double) mouse_pos.x) / Screen.width - 0.5d;
-			double relative_y = ((double) mouse_pos.y) / Screen.height - 0.5d;
+			// Look left/right
+			float multiplier = this.CameraRotationSpeedRotationsPerSecond * Time.deltaTime * Configuration.LateralMouseMoveMultiplier;
+			float angle = this.CameraInput.x * multiplier;
+			this.transform.forward = Quaternion.AngleAxis(angle, this.transform.up) * this.transform.forward;
+			this.transform.right = Quaternion.AngleAxis(angle, this.transform.up) * this.transform.right;
 
-			if (relative_x > 0.125d || relative_x < -0.125d)
-			{
-				Vector3 forward = this.transform.forward;
-				forward = Quaternion.AngleAxis((float) relative_x, this.transform.up) * forward;
-				this.transform.forward = forward;
-			}
+			// Look up/down
+			multiplier = this.CameraRotationSpeedRotationsPerSecond * Time.deltaTime * Configuration.VerticalMouseMoveMultiplier;
+			angle = Math.Clamp(this.CameraInput.y * multiplier, -45, 45);
+			MyCameraHandler.Instance.SetFollowVectorRotation(0, angle);
 
+			// Move around
 			this.AnimationHandler.UpdateAnimatorValues(Mathf.Clamp01(Mathf.Abs(this.MovementInput.x) + Mathf.Abs(this.MovementInput.y)), 0);
 			if (this.MovementInput.magnitude == 0) return;
 			float offset = this.MovementSpeedMetersPerSecond * Time.deltaTime;
