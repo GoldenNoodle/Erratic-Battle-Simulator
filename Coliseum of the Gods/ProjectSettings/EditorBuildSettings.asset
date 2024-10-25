@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TitleScreen.unity
+    guid: fab9fe8a660a68249a122daab68c1f8b
+  - enabled: 1
+    path: Assets/Scenes/GameWorld.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: d01edda4894a17a498bb32666a715e09, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 4f9f13506ad47424e93ff525cf3d7346, type: 3}

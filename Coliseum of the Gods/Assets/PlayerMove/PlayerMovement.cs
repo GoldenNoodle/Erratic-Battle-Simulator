@@ -38,17 +38,15 @@ namespace GC
             Application.targetFrameRate = 60;
 
         }
-
         
         public void Update()
         {
             float delta = Time.deltaTime;
             inputHandler.TickInput(delta);
             HandleMovement(delta);
-
-
         }
         
+
         #region Movement
         Vector3 normalVector;
         Vector3 targetPosition;

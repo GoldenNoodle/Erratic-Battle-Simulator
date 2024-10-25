@@ -28,6 +28,7 @@ namespace GC
 
         }
         
+        
         private void FixedUpdate()
         {
             float delta = Time.fixedDeltaTime;

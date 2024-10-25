@@ -16,21 +16,21 @@ namespace GC
         CameraHandler cameraHandler;
         PlayerMovement playerMovement;
 
-        public bool isInteracting;
+        //public bool isInteracting;
 
-        /*
+        
         private void Awake()
         {
             cameraHandler = CameraHandler.singleton;
 
         }
-        */
 
         void Start()
         {
             inputHandler = GetComponent<InputHandling>();
             anim = GetComponentInChildren<Animator>();
             playerMovement = GetComponent<PlayerMovement>();
+            cameraHandler = CameraHandler.singleton;
         }
 
 
@@ -42,7 +42,7 @@ namespace GC
             inputHandler.TickInput(delta);
             playerMovement.HandleMovement(delta);
         }
-        /*
+        
         private void FixedUpdate()
         {
             float delta = Time.fixedDeltaTime;
@@ -53,7 +53,7 @@ namespace GC
                 cameraHandler.HandleCameraRotation(delta, inputHandler.mouseX, inputHandler.mouseY);
             }
         }
-        */
+        
 
     }
 }
