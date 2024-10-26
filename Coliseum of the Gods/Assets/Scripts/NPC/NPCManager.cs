@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace GC
+namespace GC.IotaScripts
 {
 	public class NPCManager : MonoBehaviour
 	{

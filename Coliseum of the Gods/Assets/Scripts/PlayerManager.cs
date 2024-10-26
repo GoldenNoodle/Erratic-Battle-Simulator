@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using GC.IotaScripts;
 
 
 //Player Manager is reponsible for all updating code.
