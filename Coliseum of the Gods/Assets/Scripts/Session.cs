@@ -28,7 +28,7 @@ namespace GC.IotaScripts
 			this.FloorShifter.ResetSubdivisios(0);
 		}
 
-		private void LateUpdate()
+		private void FixedUpdate()
 		{
 			DateTime now = DateTime.UtcNow;
 			TimeSpan delta = now - this.LastArenaShiftTime;

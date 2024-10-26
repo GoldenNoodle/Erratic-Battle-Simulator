@@ -48,6 +48,7 @@ namespace GC
                 inputActions = new PlayerControls();
                 inputActions.PlayerMovement.Movement.performed += inputActions => movementInput = inputActions.ReadValue<Vector2>();
                 inputActions.PlayerMovement.Camera.performed += i => cameraInput = i.ReadValue<Vector2>();
+                inputActions.PlayerActions.Jump.performed += context => jumpInput = true;
             }
 
             inputActions.Enable();

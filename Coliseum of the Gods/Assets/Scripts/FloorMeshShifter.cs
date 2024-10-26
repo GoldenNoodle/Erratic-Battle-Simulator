@@ -47,7 +47,7 @@ namespace GC.IotaScripts
 
 		private List<MySubdivisionShifter> FloorSubdivisions = new List<MySubdivisionShifter>();
 
-		private void Start()
+		private void Awake()
 		{
 			MeshRenderer mesh_renderer = this.GetComponent<MeshRenderer>();
 			MeshFilter mesh_filter = this.GetComponent<MeshFilter>();
@@ -68,52 +68,24 @@ namespace GC.IotaScripts
 			{
 				for (uint x = 0; x < MyFloorShifter.Subdivisions; ++x)
 				{
-					GameObject sub_division = new GameObject($"FloorDivision{index++}");
-					MeshRenderer renderer = sub_division.AddComponent<MeshRenderer>();
-					MeshFilter filter = sub_division.AddComponent<MeshFilter>();
-					MeshCollider collider = sub_division.AddComponent<MeshCollider>();
-					Mesh mesh = new Mesh();
-
-					mesh.vertices = new Vector3[4] {
-						tl_corner_l,
-						tr_corner_l,
-						bl_corner_l,
-						br_corner_l
-					};
-
-					mesh.triangles = new int[6] {
-						0, 2, 1,
-						2, 3, 1
-					};
-
-					mesh.normals = new Vector3[4] {
-						-Vector3.forward,
-						-Vector3.forward,
-						-Vector3.forward,
-						-Vector3.forward
-					};
-
-					mesh.uv = new Vector2[4] {
-						new Vector2(0, 0),
-						new Vector2(1, 0),
-						new Vector2(0, 1),
-						new Vector2(1, 1)
-					};
-
-					filter.mesh = mesh;
-					renderer.sharedMaterial = mesh_renderer.sharedMaterial;
-					collider.cookingOptions = (MeshColliderCookingOptions) 0b11111;
-					collider.sharedMesh = mesh;
+					GameObject sub_division = GameObject.CreatePrimitive(PrimitiveType.Cube);
+					sub_division.name = $"FloorDivision{index++}";
+					Vector3 offset = sub_division.GetComponent<MeshFilter>().mesh.bounds.size;
+					offset.y *= -5;
 					sub_division.transform.SetParent(this.transform);
-					sub_division.transform.localPosition = (lateral_offset * x) + (vertical_offset * y) - mesh_filter.mesh.bounds.extents;
-					sub_division.transform.localScale = new Vector3(1, 1, 1);
+					sub_division.transform.localScale = new Vector3(2, 10, 2);
+					sub_division.transform.localPosition = (lateral_offset * x) + (vertical_offset * y) - mesh_filter.mesh.bounds.extents + offset;
 					this.FloorSubdivisions.Add(new MySubdivisionShifter(sub_division));
 				}
 			}
+		}
 
+		private void Start()
+		{
+			MeshRenderer mesh_renderer = this.GetComponent<MeshRenderer>();
 			MeshCollider mesh_collider = this.GetComponent<MeshCollider>();
 			if (mesh_collider != null) mesh_collider.enabled = false;
-			mesh_renderer.enabled = false;
+			if (mesh_renderer != null) mesh_renderer.enabled = false;
 		}
 
 		private void LateUpdate()
@@ -131,7 +103,7 @@ namespace GC.IotaScripts
 			for (int i = 0; i < this.FloorSubdivisions.Count; ++i)
 			{
 				MySubdivisionShifter shifter = this.FloorSubdivisions[i];
-				UnityEngine.Random.InitState(seed + (i << 1));
+				UnityEngine.Random.InitState(seed * i);
 				Vector3 offset = new Vector3(0, UnityEngine.Random.value * max_height_offset, 0);
 				shifter.ShiftTo(shifter.InitialPosition + offset, game_ticks);
 			}

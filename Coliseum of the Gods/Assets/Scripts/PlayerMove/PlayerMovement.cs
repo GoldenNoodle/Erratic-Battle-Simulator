@@ -96,7 +96,8 @@ namespace GC
             moveDirection *= speed;
 
             Vector3 projectedVelocity = Vector3.ProjectOnPlane(moveDirection, normalVector);
-            rigidbody.velocity = projectedVelocity;
+            rigidbody.velocity = projectedVelocity + new Vector3(0, (this.inputHandler.jumpInput) ? 5f : rigidbody.velocity.y, 0);
+            this.inputHandler.jumpInput = false;
 
             animationHandler.UpdateAnimatorValues(inputHandler.moveAmount, 0);
 
