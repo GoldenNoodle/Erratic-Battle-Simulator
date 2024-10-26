@@ -8,9 +8,11 @@ namespace GC
 	{
 		private GameObject Player;
 
+
 		private void Start()
 		{
 			this.Player = GameObject.Find("Player");
+
 		}
 
 		private void Update()
