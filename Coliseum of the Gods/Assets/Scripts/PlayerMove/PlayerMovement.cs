@@ -26,6 +26,10 @@ namespace GC
         [SerializeField]
         float rotationSpeed = 10;
 
+        public bool isInteracting;
+
+        public bool isInAir;
+
         void Start()
         {
             playerManager = GetComponent<PlayerManager>();
@@ -42,8 +46,11 @@ namespace GC
         public void Update()
         {
             float delta = Time.deltaTime;
+            
+
             inputHandler.TickInput(delta);
             HandleMovement(delta);
+            
         }
         
 
@@ -100,26 +107,7 @@ namespace GC
             }
         }
 
-        /*
-        public void HandleJumping()
-        {
-            if (playerManager.isInteracting)
-                return;
-
-            if (inputHandler.jumpInput)
-            {
-                if(inputHandler.moveAmount > 0)
-                {
-                    moveDirection = cameraObject.forward * inputHandler.vertical;
-                    moveDirection += cameraObject.right * inputHandler.horizontal;
-                    animationHandler.PlayerTargetAnimation("Jump", true);
-                    moveDirection.y = 0;
-                    Quaternion jumpRotation = Quaternion.LookRotation(moveDirection);
-                    myTransform.rotation = jumpRotation;
-                }
-            }
-        }
-        */
+        
         #endregion
 
 

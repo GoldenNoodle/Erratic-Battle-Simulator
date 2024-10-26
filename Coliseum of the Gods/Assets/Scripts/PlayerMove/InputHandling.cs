@@ -39,8 +39,8 @@ namespace GC
                 cameraHandler.HandleCameraRotation(delta, mouseX, mouseY);
             }
         }
-        
-        
+
+
         public void OnEnable()
         {
             if (inputActions == null)
@@ -61,7 +61,7 @@ namespace GC
         public void TickInput(float delta)
         {
             MoveInput(delta);
-            //HandleJumpInput();
+            
         }
 
         private void MoveInput(float delta)
@@ -73,12 +73,9 @@ namespace GC
             mouseY = cameraInput.y;
         }
         
-        /*
-        private void HandleJumpInput()
-        {
-            inputActions.PlayerActions.Jump.performed += i => jumpInput = true;
-        }
-        */
+        
+       
+        
         
     }
 

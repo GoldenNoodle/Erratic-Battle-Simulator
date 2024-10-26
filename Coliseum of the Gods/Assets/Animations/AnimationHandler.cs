@@ -14,12 +14,14 @@ namespace GC
         int horizontal;
         public bool canRotate;
 
+
         public void Initialize()
         {
             playerManager = GetComponentInParent<PlayerManager>();
             anim = GetComponent<Animator>();
             vertical = Animator.StringToHash("Vertical");
             horizontal = Animator.StringToHash("Horizontal");
+
         }
 
         public void UpdateAnimatorValues(float vertMove, float horizMove)
@@ -78,14 +80,14 @@ namespace GC
 
         }
 
-        /*
-        public void PlayerTargetAnimation(string targetAnim, bool isInteracting)
+        
+        public void PlayTargetAnimation(string targetAnim, bool isInteracting)
         {
             anim.applyRootMotion = isInteracting;
             anim.SetBool("isInteracting", isInteracting);
             anim.CrossFade(targetAnim, 0.2f);
         }
-        */
+        
 
         public void CanRotate()
         {
@@ -97,21 +99,6 @@ namespace GC
             canRotate = false;
         }
 
-        /*
-        private void OnAnimatorMove()
-        {
-            if (playerManager.isInteracting == false)
-                return;
-
-            float delta = Time.deltaTime;
-            playerMovement.rigidbody.drag = 0;
-            Vector3 deltaPosition = anim.deltaPosition;
-            deltaPosition.y = 0;
-            Vector3 velocity = deltaPosition / delta;
-            playerMovement.rigidbody.velocity = velocity;
-                
-        }
-        */
-        
+       
     }
 }
