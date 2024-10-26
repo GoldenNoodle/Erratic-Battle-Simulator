@@ -109,6 +109,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -356,13 +357,15 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Animations/AnimationHandler.cs"
-"Assets/CameraScripts/CameraHandler.cs"
-"Assets/PlayerManager.cs"
-"Assets/PlayerMove/InputHandling.cs"
-"Assets/PlayerMove/PlayerControls.cs"
-"Assets/PlayerMove/PlayerMovement.cs"
-"Assets/TitleScreenManager.cs"
-"Assets/TitleScreenMenu.cs"
+"Assets/Scripts/CameraScripts/CameraHandler.cs"
+"Assets/Scripts/MyHealth.cs"
+"Assets/Scripts/NPC/NPCManager.cs"
+"Assets/Scripts/PlayerManager.cs"
+"Assets/Scripts/PlayerMove/InputHandling.cs"
+"Assets/Scripts/PlayerMove/PlayerControls.cs"
+"Assets/Scripts/PlayerMove/PlayerMovement.cs"
+"Assets/Scripts/TitleScreenManager.cs"
+"Assets/Scripts/TitleScreenMenu.cs"
 -langversion:9.0
 /deterministic
 /optimize+
