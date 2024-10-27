@@ -16,3 +16,4 @@ MonoBehaviour:
   itemName: Katana
   modelPrefab: {fileID: 2191201631389070732, guid: 06e54ddc7fb48bd488541b451f2df600, type: 3}
   isUnarmed: 0
+  attack_melee_right: attack_melee_right

@@ -4,7 +4,7 @@ using UnityEngine;
 using GC.IotaScripts;
 
 
-//Player Manager is reponsible for all updating code.
+//Player Manager is reponsible for all updating methods and connecting these scripts together.
 //This allows for more readibility as PlayerMovement, AnimationHandler, and InputHandling will only show code for their respective purposes
 
 namespace GC
@@ -19,7 +19,7 @@ namespace GC
         MyHealthManager HealthManager;
 		MyWeaponHandler weaponHandler;
 
-		//public bool isInteracting;
+		public bool isInteracting; //tells us when player is doing something
 
 
 		private void Awake()
@@ -40,7 +40,8 @@ namespace GC
 
         void Update()
         {
-            //isInteracting = anim.GetBool("IsInteracting");
+            //inputHandler.isInteracting = anim.GetBool("isInteracting");
+            isInteracting = anim.GetBool("isInteracting");
             
             float delta = Time.deltaTime;
             inputHandler.TickInput(delta);
@@ -63,6 +64,11 @@ namespace GC
 				this.inputHandler.attackInput = false;
 			}
 		}
+
+        private void LateUpdate()
+        {
+            inputHandler.attackInput = false;
+        }
     }
 }
 

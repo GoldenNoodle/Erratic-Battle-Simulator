@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace GC
+
+    //Responsible for all functions dealing with player movement and rotation
 {
     public class PlayerMovement : MonoBehaviour
     {
@@ -29,7 +31,6 @@ namespace GC
         float rotationSpeed = 10;
 
         public bool isInteracting;
-
         public bool isInAir;
 
         void Start()
@@ -45,7 +46,9 @@ namespace GC
             Application.targetFrameRate = 60;
 
         }
-        
+
+        //Player Manager Handles this function: Keeping this here for personal use
+        /*
         public void Update()
         {
             float delta = Time.deltaTime;
@@ -55,7 +58,7 @@ namespace GC
             HandleMovement(delta);
             
         }
-        
+        */
 
         #region Movement
         Vector3 normalVector;
