@@ -109,6 +109,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -356,6 +357,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Animations/AnimationHandler.cs"
+"Assets/Item.cs"
+"Assets/PlayerInventory.cs"
 "Assets/Scripts/CameraScripts/CameraHandler.cs"
 "Assets/Scripts/FloorMeshShifter.cs"
 "Assets/Scripts/MainMenu/TitleScreenManager.cs"
@@ -367,6 +370,9 @@
 "Assets/Scripts/PlayerMove/PlayerControls.cs"
 "Assets/Scripts/PlayerMove/PlayerMovement.cs"
 "Assets/Scripts/Session.cs"
+"Assets/WeaponHolderSlot.cs"
+"Assets/WeaponItem.cs"
+"Assets/WeaponSlotManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+
