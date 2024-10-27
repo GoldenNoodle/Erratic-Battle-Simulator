@@ -15,6 +15,12 @@ namespace GC.IotaScripts
 
 		internal MyFloorShifter FloorShifter { get; private set; }
 
+		private void Awake()
+		{
+			MyWeaponHandler.Initialize();
+			MyDamageOverTimeSystem.Initialize();
+		}
+
 		private void Start()
 		{
 			this.FloorShifter = GameObject.Find("Floor").GetComponent<MyFloorShifter>();

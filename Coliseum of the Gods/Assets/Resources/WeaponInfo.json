@@ -1,0 +1,9 @@
+{
+  "Katana": {
+    "ProjectileSpawner": null,
+    "BaseDamage": 10.0,
+    "DamageOverTimeSystem": null,
+    "CooldownTimeSeconds": 0.5,
+    "WeaponReachDistanceMeters": 1.5
+  }
+}

@@ -1,14 +1,27 @@
+using Newtonsoft.Json;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime;
 using UnityEngine;
+using static GC.IotaScripts.MyWeaponHandler;
+using static GC.IotaScripts.MyWeaponHandler.MyWeaponInfo;
 
 namespace GC.IotaScripts
 {
 	internal class MyDamageOverTimeSystem
 	{
-		private static Dictionary<string, MyDamageOverTimeSystem> RegisteredDoTSystems = new Dictionary<string, MyDamageOverTimeSystem>();
+		[Serializable]
+		public struct SerializedDamageOverTimeSystem
+		{
+			public uint DurationGameTicks;
+			public double HealthLossPerTick;
+			public double CurrentHealth;
+			public double MovementSpeedMultiplier;
+			public double JumpHeightMultiplier;
+		}
+
+		private static Dictionary<string, MyDamageOverTimeSystem> DamageOverTimeSystems = new Dictionary<string, MyDamageOverTimeSystem>();
 
 		private bool Applicable = false;
 		private readonly string Name;
@@ -21,28 +34,46 @@ namespace GC.IotaScripts
 
 		private uint RemainingTimeTicks;
 
-		public static MyDamageOverTimeSystem RegisterNewDoTSystem(string name, uint duration_game_ticks = 0, double health_loss_per_tick = 0, double current_health = -1, double movement_speed_multiplier = 1, double jump_height_multiplier = 1, Func<MyHealthManager, bool> tick_callback = null)
+		public static MyDamageOverTimeSystem FromJSON(string name, string json)
 		{
-			if (MyDamageOverTimeSystem.RegisteredDoTSystems.ContainsKey(name)) throw new AmbiguousImplementationException("Specified DoT name is alreay implemented");
-			MyDamageOverTimeSystem dot = new MyDamageOverTimeSystem(name, duration_game_ticks, health_loss_per_tick, current_health, movement_speed_multiplier, jump_height_multiplier, tick_callback);
-			MyDamageOverTimeSystem.RegisteredDoTSystems.Add(name, dot);
-			return dot;
+			SerializedDamageOverTimeSystem weapon_info = JsonUtility.FromJson<SerializedDamageOverTimeSystem>(json);
+			return new MyDamageOverTimeSystem(name, weapon_info);
+		}
+
+		public static void Initialize()
+		{
+			TextAsset file = Resources.Load("DamageOverTimeSystems", typeof(TextAsset)) as TextAsset;
+			Dictionary<string, Dictionary<string, object>> _json = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, object>>>(file.text);
+			Dictionary<string, string> json = new Dictionary<string, string>();
+			foreach (KeyValuePair<string, Dictionary<string, object>> pair in _json) json.Add(pair.Key, JsonConvert.SerializeObject(pair.Value));
+			foreach (KeyValuePair<string, string> dot_info in json) MyDamageOverTimeSystem.DamageOverTimeSystems.Add(dot_info.Key, MyDamageOverTimeSystem.FromJSON(dot_info.Key, dot_info.Value));
 		}
 
 		public static MyDamageOverTimeSystem GetDoTSystem(string name)
 		{
-			return MyDamageOverTimeSystem.RegisteredDoTSystems.GetValueOrDefault(name, null);
+			return MyDamageOverTimeSystem.DamageOverTimeSystems.GetValueOrDefault(name, null);
 		}
 
-		private MyDamageOverTimeSystem(string name, uint duration_game_ticks, double health_loss_per_tick, double current_health, double movement_speed_multiplier, double jump_height_multiplier, Func<MyHealthManager, bool> tick_callback)
+		private MyDamageOverTimeSystem(string name, SerializedDamageOverTimeSystem dot_info)
 		{
 			this.Name = name;
-			this.DurationGameTicks = duration_game_ticks;
-			this.HealthLossPerTick = health_loss_per_tick;
-			this.CurrentHealth = current_health;
-			this.MovementSpeedMultiplier = movement_speed_multiplier;
-			this.JumpHeightMultiplier = jump_height_multiplier;
-			this.TickCallback = tick_callback;
+			this.DurationGameTicks = dot_info.DurationGameTicks;
+			this.HealthLossPerTick = dot_info.HealthLossPerTick;
+			this.CurrentHealth = dot_info.CurrentHealth;
+			this.MovementSpeedMultiplier = dot_info.MovementSpeedMultiplier;
+			this.JumpHeightMultiplier = dot_info.JumpHeightMultiplier;
+			//this.TickCallback = tick_callback;
+		}
+
+		private MyDamageOverTimeSystem(MyDamageOverTimeSystem original)
+		{
+			this.Name = original.Name;
+			this.DurationGameTicks = original.DurationGameTicks;
+			this.HealthLossPerTick = original.HealthLossPerTick;
+			this.CurrentHealth = original.CurrentHealth;
+			this.MovementSpeedMultiplier = original.MovementSpeedMultiplier;
+			this.JumpHeightMultiplier= original.JumpHeightMultiplier;
+			this.TickCallback = original.TickCallback;
 		}
 
 		public bool Tick(MyHealthManager health_manager)
@@ -60,15 +91,10 @@ namespace GC.IotaScripts
 		public MyDamageOverTimeSystem Applyable()
 		{
 			if (this.Applicable) throw new InvalidOperationException("This DoT system is already applied");
-			MyDamageOverTimeSystem clone = new MyDamageOverTimeSystem(this.Name, this.DurationGameTicks, this.HealthLossPerTick, this.CurrentHealth, this.MovementSpeedMultiplier, this.JumpHeightMultiplier, this.TickCallback);
+			MyDamageOverTimeSystem clone = new MyDamageOverTimeSystem(this);
 			clone.RemainingTimeTicks = this.DurationGameTicks;
 			clone.Applicable = true;
 			return clone;
 		}
-	}
-
-	internal partial class DamageOverTimeDefinitions
-	{ 
-		
 	}
 }

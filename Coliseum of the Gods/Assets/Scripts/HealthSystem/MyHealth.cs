@@ -78,7 +78,7 @@ namespace GC.IotaScripts
 		internal void ApplyDamageOverTime(string DoT_system_name)
 		{
 			MyDamageOverTimeSystem dot = MyDamageOverTimeSystem.GetDoTSystem(DoT_system_name);
-			if (dot == null) this.DamageOverTimeSystems.Add(dot.Applyable());
+			if (dot != null) this.DamageOverTimeSystems.Add(dot.Applyable());
 		}
 
 		internal double Damage(double health)

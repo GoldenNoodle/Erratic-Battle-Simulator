@@ -1,0 +1,14 @@
+{
+  "Freezing": {
+    "DurationGameTicks": 250,
+    "HealthLossPerTick": 0.2,
+    "CurrentHealth": -1,
+    "MovementSpeedMultiplier": 0,
+    "JumpHeightMultiplier": 0
+  },
+  "Burning": {
+    "DurationGameTicks": 250,
+    "HealthLossPerTick": 0.5,
+    "CurrentHealth": -1
+  }
+}

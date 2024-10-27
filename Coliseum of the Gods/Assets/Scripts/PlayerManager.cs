@@ -33,6 +33,7 @@ namespace GC
             inputHandler = GetComponent<InputHandling>();
             anim = GetComponentInChildren<Animator>();
             playerMovement = GetComponent<PlayerMovement>();
+            weaponHandler = GetComponent<MyWeaponHandler>();
 			cameraHandler = CameraHandler.singleton;
         }
 
@@ -62,11 +63,6 @@ namespace GC
 				this.inputHandler.attackInput = false;
 			}
 		}
-        
-        public void BindWeapon(GameObject weapon)
-        {
-            this.weaponHandler = weapon.GetComponent<MyWeaponHandler>();
-        }
     }
 }
 
