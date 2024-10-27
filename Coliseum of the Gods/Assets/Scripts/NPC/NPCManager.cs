@@ -10,6 +10,7 @@ namespace GC.IotaScripts
 		private bool Jumped = false;
 		private GameObject Player;
 		private Rigidbody RigidBody;
+		private MyHealthManager HealthManager;
 		private Vector3 LastPosition;
 		private DateTime LastScanTime;
 
@@ -18,6 +19,7 @@ namespace GC.IotaScripts
 		{
 			this.Player = GameObject.Find("Player");
 			this.RigidBody = this.GetComponent<Rigidbody>();
+			this.HealthManager = this.GetComponent<MyHealthManager>();
 			this.LastPosition = this.transform.position;
 		}
 
@@ -34,7 +36,7 @@ namespace GC.IotaScripts
 			this.transform.rotation = Quaternion.LookRotation(direction);
 			this.Jumped = false;
 			bool player_reached = distance <= 1.5f;
-			Vector3 velocity = this.transform.forward * 2.5f;
+			Vector3 velocity = this.transform.forward * (float) (2.5d * this.HealthManager.AccumulatedMovementSpeedMultiplier);
 			velocity.y = this.RigidBody.velocity.y;
 			velocity = (player_reached) ? new Vector3(0, this.RigidBody.velocity.y, 0) : velocity;
 
@@ -42,7 +44,7 @@ namespace GC.IotaScripts
 			{
 				if (Vector3.Distance(this.transform.position, this.LastPosition) <= 1e-3)
 				{
-					velocity = new Vector3(0, 5, 0);
+					velocity = new Vector3(0, (float) (5d * this.HealthManager.AccumulatedJumpHeightMultiplier), 0);
 					this.Jumped = true;
 				}
 

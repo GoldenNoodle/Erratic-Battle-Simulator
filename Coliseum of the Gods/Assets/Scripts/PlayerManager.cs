@@ -17,11 +17,12 @@ namespace GC
         CameraHandler cameraHandler;
         PlayerMovement playerMovement;
         MyHealthManager HealthManager;
+		MyWeaponHandler weaponHandler;
 
-        //public bool isInteracting;
+		//public bool isInteracting;
 
-        
-        private void Awake()
+
+		private void Awake()
         {
             cameraHandler = CameraHandler.singleton;
 
@@ -32,18 +33,18 @@ namespace GC
             inputHandler = GetComponent<InputHandling>();
             anim = GetComponentInChildren<Animator>();
             playerMovement = GetComponent<PlayerMovement>();
-            cameraHandler = CameraHandler.singleton;
+			cameraHandler = CameraHandler.singleton;
         }
 
 
         void Update()
         {
             //isInteracting = anim.GetBool("IsInteracting");
-
+            
             float delta = Time.deltaTime;
             inputHandler.TickInput(delta);
             playerMovement.HandleMovement(delta);
-        }
+		}
         
         private void FixedUpdate()
         {
@@ -54,9 +55,18 @@ namespace GC
                 cameraHandler.FollowTarget(delta);
                 cameraHandler.HandleCameraRotation(delta, inputHandler.mouseX, inputHandler.mouseY);
             }
-        }
+            
+			if (this.inputHandler != null && this.inputHandler.attackInput)
+			{
+				this.weaponHandler?.Attack();
+				this.inputHandler.attackInput = false;
+			}
+		}
         
-
+        public void BindWeapon(GameObject weapon)
+        {
+            this.weaponHandler = weapon.GetComponent<MyWeaponHandler>();
+        }
     }
 }
 

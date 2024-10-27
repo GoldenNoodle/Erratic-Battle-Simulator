@@ -1,3 +1,4 @@
+using GC.IotaScripts;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,7 @@ namespace GC
     public class PlayerMovement : MonoBehaviour
     {
         PlayerManager playerManager;
+        MyHealthManager healthManager;
         Transform cameraObject;
         InputHandling inputHandler;
         Vector3 moveDirection;
@@ -33,6 +35,7 @@ namespace GC
         void Start()
         {
             playerManager = GetComponent<PlayerManager>();
+            healthManager = GetComponent<MyHealthManager>();
             rigidbody = GetComponent<Rigidbody>();
             inputHandler = GetComponent<InputHandling>();
             animationHandler = GetComponentInChildren<AnimationHandler>(); //children because its going on player model under player game object
@@ -75,7 +78,7 @@ namespace GC
                 targetDir = myTransform.forward;
             }
 
-            float rotSpeed = rotationSpeed;
+            float rotSpeed = (float) (rotationSpeed * healthManager.AccumulatedMovementSpeedMultiplier);
 
             Quaternion targetRot = Quaternion.LookRotation(targetDir);
             Quaternion targetRotation = Quaternion.Slerp(myTransform.rotation, targetRot, rotSpeed * delta);
@@ -92,13 +95,15 @@ namespace GC
             moveDirection.y = 0; //freezes movement in y direction so we dont randomy levitate off the ground
 
 
-            float speed = movementSpeed;
+            float speed = (float) (movementSpeed * healthManager.AccumulatedMovementSpeedMultiplier);
             moveDirection *= speed;
 
             Vector3 projectedVelocity = Vector3.ProjectOnPlane(moveDirection, normalVector);
-            rigidbody.velocity = projectedVelocity + new Vector3(0, (this.inputHandler.jumpInput) ? 5f : rigidbody.velocity.y, 0);
+            bool jump = this.inputHandler.jumpInput && Physics.Raycast(rigidbody.transform.position, Vector3.down, 1f);
+            projectedVelocity.y = rigidbody.velocity.y;
+            rigidbody.velocity = (jump) ? new Vector3(0, (float) (5d * healthManager.AccumulatedJumpHeightMultiplier), 0) : projectedVelocity;
             this.inputHandler.jumpInput = false;
-
+            
             animationHandler.UpdateAnimatorValues(inputHandler.moveAmount, 0);
 
 

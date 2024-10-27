@@ -13,7 +13,8 @@ namespace GC
         public float mouseX;
         public float mouseY;
 
-        public bool jumpInput;
+        public bool jumpInput = false;
+        public bool attackInput = false;
 
         PlayerControls inputActions;
         CameraHandler cameraHandler;
@@ -49,6 +50,7 @@ namespace GC
                 inputActions.PlayerMovement.Movement.performed += inputActions => movementInput = inputActions.ReadValue<Vector2>();
                 inputActions.PlayerMovement.Camera.performed += i => cameraInput = i.ReadValue<Vector2>();
                 inputActions.PlayerActions.Jump.performed += context => jumpInput = true;
+                inputActions.PlayerActions.Attack.performed += context => attackInput = true;
             }
 
             inputActions.Enable();
