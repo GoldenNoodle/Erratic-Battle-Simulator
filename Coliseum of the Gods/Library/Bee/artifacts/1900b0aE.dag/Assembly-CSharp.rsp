@@ -109,6 +109,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -360,6 +361,7 @@
 "Assets/PlayerAttacker.cs"
 "Assets/ResetAnimatorBool.cs"
 "Assets/Scripts/CameraScripts/CameraHandler.cs"
+"Assets/Scripts/Extensions/GameObjectExt.cs"
 "Assets/Scripts/FloorMeshShifter.cs"
 "Assets/Scripts/HealthSystem/DamageOverTime.cs"
 "Assets/Scripts/HealthSystem/MyHealth.cs"

@@ -43,42 +43,7 @@ namespace GC.IotaScripts
 			}
 		}
 
-		private static uint Subdivisions = 5u;
-
 		private List<MySubdivisionShifter> FloorSubdivisions = new List<MySubdivisionShifter>();
-
-		private void Awake()
-		{
-			MeshRenderer mesh_renderer = this.GetComponent<MeshRenderer>();
-			MeshFilter mesh_filter = this.GetComponent<MeshFilter>();
-			Vector3 plane_size = mesh_filter.mesh.bounds.size;
-			Vector3 subdivision_size = plane_size / MyFloorShifter.Subdivisions;
-			Vector3 tl_corner = mesh_filter.mesh.bounds.min;
-			Vector3 lateral_offset = new Vector3(subdivision_size.x, 0, 0);
-			Vector3 vertical_offset = new Vector3(0, 0, subdivision_size.z);
-
-			Vector3 tl_corner_l = new Vector3(0, 0, 0);
-			Vector3 tr_corner_l = new Vector3(subdivision_size.x, 0, 0);
-			Vector3 bl_corner_l = new Vector3(0, 0, subdivision_size.z);
-			Vector3 br_corner_l = new Vector3(subdivision_size.x, 0, subdivision_size.z);
-
-			uint index = 0;
-
-			for (uint y = 0; y < MyFloorShifter.Subdivisions; ++y)
-			{
-				for (uint x = 0; x < MyFloorShifter.Subdivisions; ++x)
-				{
-					GameObject sub_division = GameObject.CreatePrimitive(PrimitiveType.Cube);
-					sub_division.name = $"FloorDivision{index++}";
-					Vector3 offset = sub_division.GetComponent<MeshFilter>().mesh.bounds.size;
-					offset.y *= -5;
-					sub_division.transform.SetParent(this.transform);
-					sub_division.transform.localScale = new Vector3(2, 10, 2);
-					sub_division.transform.localPosition = (lateral_offset * x) + (vertical_offset * y) - mesh_filter.mesh.bounds.extents + offset;
-					this.FloorSubdivisions.Add(new MySubdivisionShifter(sub_division));
-				}
-			}
-		}
 
 		private void Start()
 		{
@@ -91,6 +56,40 @@ namespace GC.IotaScripts
 		private void LateUpdate()
 		{
 			foreach (MySubdivisionShifter shifter in this.FloorSubdivisions) shifter.Tick();
+		}
+
+		internal void Initialize(uint subdivisions)
+		{
+			MeshRenderer mesh_renderer = this.GetComponent<MeshRenderer>();
+			MeshFilter mesh_filter = this.GetComponent<MeshFilter>();
+			Vector3 plane_size = mesh_filter.mesh.bounds.size;
+			Vector3 subdivision_size = plane_size / subdivisions;
+			Vector3 tl_corner = mesh_filter.mesh.bounds.min;
+			Vector3 lateral_offset = new Vector3(subdivision_size.x, 0, 0);
+			Vector3 vertical_offset = new Vector3(0, 0, subdivision_size.z);
+
+			Vector3 tl_corner_l = new Vector3(0, 0, 0);
+			Vector3 tr_corner_l = new Vector3(subdivision_size.x, 0, 0);
+			Vector3 bl_corner_l = new Vector3(0, 0, subdivision_size.z);
+			Vector3 br_corner_l = new Vector3(subdivision_size.x, 0, subdivision_size.z);
+
+			uint index = 0u;
+			subdivision_size.y = 10f;
+
+			for (uint y = 0; y < subdivisions; ++y)
+			{
+				for (uint x = 0; x < subdivisions; ++x)
+				{
+					GameObject sub_division = GameObject.CreatePrimitive(PrimitiveType.Cube);
+					sub_division.name = $"FloorDivision{index++}";
+					Vector3 offset = subdivision_size / 2f;
+					sub_division.transform.SetParent(this.transform);
+					sub_division.transform.localScale = subdivision_size;
+					offset.y = -(subdivision_size.y / 2f);
+					sub_division.transform.localPosition = (lateral_offset * x) + (vertical_offset * y) - mesh_filter.mesh.bounds.extents + offset;
+					this.FloorSubdivisions.Add(new MySubdivisionShifter(sub_division));
+				}
+			}
 		}
 
 		internal void RandomShiftSubdivisions(uint game_ticks, float max_height_offset)
