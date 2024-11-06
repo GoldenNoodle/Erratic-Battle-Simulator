@@ -19,7 +19,6 @@ namespace GC
 
         PlayerControls inputActions;
         CameraHandler cameraHandler;
-        PlayerAttacker playerAttacker;
         PlayerInventory playerInventory;
 
         Vector2 movementInput;
@@ -29,7 +28,6 @@ namespace GC
         private void Awake()
         {
             //cameraHandler = CameraHandler.singleton; PlayerManager takes care of this so we dont need it but keep in case something goes wrong
-            playerAttacker = GetComponent<PlayerAttacker>();
             playerInventory = GetComponent<PlayerInventory>();
 
         }
@@ -70,8 +68,6 @@ namespace GC
         public void TickInput(float delta)
         {
             MoveInput(delta);
-            HandleAttackInput(delta);
-            
         }
 
         private void MoveInput(float delta)
@@ -82,18 +78,6 @@ namespace GC
             mouseX = cameraInput.x;
             mouseY = cameraInput.y;
         }
-        
-        private void HandleAttackInput(float delta)
-        {
-            inputActions.PlayerActions.Attack.performed += inputActions => attackInput = true;
-
-            if (attackInput)
-            {
-                playerAttacker.HandleAttack(playerInventory.rightWeapon);
-            }
-        }
-        
-        
     }
 
 }

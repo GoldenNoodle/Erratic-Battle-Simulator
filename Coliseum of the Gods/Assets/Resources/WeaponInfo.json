@@ -16,5 +16,23 @@
         }
       ]
     }
+  },
+  "Rapier": {
+    "ProjectileSpawner": null,
+    "BaseDamage": 8.0,
+    "DamageOverTimeSystem": null,
+    "CooldownTimeSeconds": 0.333333,
+    "WeaponReachDistanceMeters": 2.5,
+    "ModelName": "RPG Swords/Rapier",
+    "ModelParents": {
+      "character-soldier": [
+        {
+          "Parent": "root/torso/arm_right",
+          "ModelOffset": [ 0.225, 0, 0.25 ],
+          "ModelRotation": [ 180, 0, 0 ],
+          "ModelScale": [ 1, 1, 1 ]
+        }
+      ]
+    }
   }
 }
