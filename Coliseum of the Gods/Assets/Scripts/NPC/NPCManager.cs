@@ -11,6 +11,7 @@ namespace GC.IotaScripts
 		private GameObject Player;
 		private Rigidbody RigidBody;
 		private MyHealthManager HealthManager;
+		private MyWeaponHandler WeaponHandler;
 		private Vector3 LastPosition;
 		private DateTime LastScanTime;
 
@@ -20,6 +21,7 @@ namespace GC.IotaScripts
 			this.Player = GameObject.Find("Player");
 			this.RigidBody = this.GetComponent<Rigidbody>();
 			this.HealthManager = this.GetComponent<MyHealthManager>();
+			this.WeaponHandler = this.GetComponent<MyWeaponHandler>();
 			this.LastPosition = this.transform.position;
 		}
 
@@ -35,7 +37,7 @@ namespace GC.IotaScripts
 			if (distance == 0) return;
 			this.transform.rotation = Quaternion.LookRotation(direction);
 			this.Jumped = false;
-			bool player_reached = distance <= 1.5f;
+			bool player_reached = distance <= (this.WeaponHandler?.ActiveWeaponInfo?.WeaponReachDistanceMeters ?? double.PositiveInfinity);
 			Vector3 velocity = this.transform.forward * (float) (2.5d * this.HealthManager.AccumulatedMovementSpeedMultiplier);
 			velocity.y = this.RigidBody.velocity.y;
 			velocity = (player_reached) ? new Vector3(0, this.RigidBody.velocity.y, 0) : velocity;
@@ -51,6 +53,7 @@ namespace GC.IotaScripts
 				this.LastScanTime = now;
 				this.LastPosition = this.transform.position;
 			}
+			else if (player_reached && this.WeaponHandler != null) this.WeaponHandler.Attack();
 
 			this.RigidBody.velocity = velocity;
 		}
