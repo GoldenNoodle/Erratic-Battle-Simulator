@@ -82,6 +82,7 @@ namespace GC.IotaScripts
 				{
 					GameObject sub_division = GameObject.CreatePrimitive(PrimitiveType.Cube);
 					sub_division.name = $"FloorDivision{index++}";
+					sub_division.GetComponent<MeshRenderer>().sharedMaterial = mesh_renderer.sharedMaterial;
 					Vector3 offset = subdivision_size / 2f;
 					sub_division.transform.SetParent(this.transform);
 					sub_division.transform.localScale = subdivision_size;

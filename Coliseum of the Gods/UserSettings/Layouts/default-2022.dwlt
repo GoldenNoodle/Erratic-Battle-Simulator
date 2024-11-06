@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1473.6
     height: 820.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 421}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 50
+  controlID: 52
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 150}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 137
+  controlID: 83
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -147,8 +147,8 @@ MonoBehaviour:
     y: 0
     width: 331.2
     height: 180.8
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 150}
   m_MaxSize: {x: 16192, y: 24288}
   vertical: 1
-  controlID: 92
+  controlID: 84
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -302,7 +302,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 83
+  controlID: 85
   draggingID: 0
 --- !u!114 &13
 MonoBehaviour:
@@ -567,7 +567,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/RPG Swords
+    - Assets/Resources/RPG Swords/Materials
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -575,17 +575,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Resources/RPG Swords
+  - Assets/Resources/RPG Swords/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\geoga\Documents\Engineering\Unity\EBS\Coliseum of the
     Gods
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 138.20001}
-    m_SelectedIDs: 7e660000
-    m_LastClickedID: 26238
-    m_ExpandedIDs: 000000007466000076660000786600007a6600007c6600007e66000080660000ea660000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 02670000
+    m_LastClickedID: 26370
+    m_ExpandedIDs: 0000000070660000726600007466000076660000786600007a6600007c660000ec660000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -613,7 +613,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007466000076660000786600007a6600007c6600007e66000080660000
+    m_ExpandedIDs: 0000000070660000726600007466000076660000786600007a6600007c660000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -640,7 +640,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300003c5d000094240000e42400000000000038690000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -752,10 +752,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 192}
-      m_SelectedIDs: 94660000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 16faffff865d0000cc5f00009c620000
+      scrollPos: {x: 0, y: 53.199997}
+      m_SelectedIDs: a45f0000
+      m_LastClickedID: 24484
+      m_ExpandedIDs: 16faffffa45f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1109,9 +1109,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.217955, y: 3.8093414, z: -5.813483}
+    m_Target: {x: -0.58635783, y: 0.77781457, z: -2.9202325}
     speed: 2
-    m_Value: {x: 3.217955, y: 3.8093414, z: -5.813483}
+    m_Value: {x: -0.58635783, y: 0.77781457, z: -2.9202325}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1157,13 +1157,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.41255027, y: -0.5759089, z: 0.41753516, w: -0.5690333}
+    m_Target: {x: -0.13702382, y: -0.84688413, z: 0.26281533, w: -0.4415349}
     speed: 2
-    m_Value: {x: -0.4125496, y: -0.57590795, z: 0.41753447, w: -0.5690324}
+    m_Value: {x: -0.13818547, y: -0.8455008, z: 0.2634988, w: -0.4433978}
   m_Size:
-    m_Target: 8.388526
+    m_Target: 13.847951
     speed: 2
-    m_Value: 8.388526
+    m_Value: 13.847951
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1242,10 +1242,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 349.6
-    y: 80.8
-    width: 696.4
-    height: 465.4
+    x: 331.2
+    y: 73.6
+    width: 674.8
+    height: 475
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1264,7 +1264,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 696.4, y: 444.4}
+  m_TargetSize: {x: 674.8, y: 454}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1279,10 +1279,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -278.56003
-    m_HBaseRangeMax: 278.56003
-    m_VBaseRangeMin: -177.76
-    m_VBaseRangeMax: 177.76
+    m_HBaseRangeMin: -269.92
+    m_HBaseRangeMax: 269.92
+    m_VBaseRangeMin: -181.6
+    m_VBaseRangeMax: 181.6
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1300,23 +1300,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 696.4
-      height: 444.4
+      width: 674.8
+      height: 454
     m_Scale: {x: 1.25, y: 1.25}
-    m_Translation: {x: 348.2, y: 222.2}
+    m_Translation: {x: 337.39996, y: 227}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -278.56
-      y: -177.76
-      width: 557.12
-      height: 355.52
+      x: -269.91998
+      y: -181.6
+      width: 539.83997
+      height: 363.2
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 870.5, y: 581.75}
+  m_LastWindowPixelSize: {x: 843.5, y: 593.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
