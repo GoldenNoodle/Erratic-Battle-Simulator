@@ -4,6 +4,8 @@ using UnityEngine;
 
 namespace GC
 {
+    //Responsible for all functions that handle animation, updating animations
+    //Ex: Walk, Jump, Attack
     public class AnimationHandler : MonoBehaviour
     {
         PlayerManager playerManager;
@@ -18,6 +20,8 @@ namespace GC
         public void Initialize()
         {
             playerManager = GetComponentInParent<PlayerManager>();
+            inputHandler = GetComponentInParent<InputHandling>();
+            playerMovement = GetComponentInParent<PlayerMovement>();
             anim = GetComponent<Animator>();
             vertical = Animator.StringToHash("Vertical");
             horizontal = Animator.StringToHash("Horizontal");
@@ -99,6 +103,22 @@ namespace GC
             canRotate = false;
         }
 
+        //Commented out for now, but will need for future animation implementations
+        
+        /*
+        private void OnAnimatorMove()
+        {
+            if (playerManager.isInteracting == false)
+                return;
+
+            float delta = Time.deltaTime;
+            playerMovement.rigidbody.drag = 0;
+            Vector3 deltaPosition = anim.deltaPosition;
+            deltaPosition.y = 0;
+            Vector3 velocity = deltaPosition / delta;
+            playerMovement.rigidbody.velocity = velocity;
+        }
+        */
        
     }
 }

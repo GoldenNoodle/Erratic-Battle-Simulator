@@ -109,7 +109,6 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
--define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -327,6 +326,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll"
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
@@ -357,15 +357,27 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Animations/AnimationHandler.cs"
+"Assets/PlayerAttacker.cs"
+"Assets/ResetAnimatorBool.cs"
 "Assets/Scripts/CameraScripts/CameraHandler.cs"
+"Assets/Scripts/Extensions/GameObjectExt.cs"
+"Assets/Scripts/FloorMeshShifter.cs"
+"Assets/Scripts/HealthSystem/DamageOverTime.cs"
+"Assets/Scripts/HealthSystem/MyHealth.cs"
+"Assets/Scripts/HealthSystem/WeaponHandler.cs"
 "Assets/Scripts/MainMenu/TitleScreenManager.cs"
 "Assets/Scripts/MainMenu/TitleScreenMenu.cs"
-"Assets/Scripts/MyHealth.cs"
 "Assets/Scripts/NPC/NPCManager.cs"
 "Assets/Scripts/PlayerManager.cs"
 "Assets/Scripts/PlayerMove/InputHandling.cs"
 "Assets/Scripts/PlayerMove/PlayerControls.cs"
 "Assets/Scripts/PlayerMove/PlayerMovement.cs"
+"Assets/Scripts/Session.cs"
+"Assets/Scripts/Weapons/Item.cs"
+"Assets/Scripts/Weapons/PlayerInventory.cs"
+"Assets/Scripts/Weapons/WeaponHolderSlot.cs"
+"Assets/Scripts/Weapons/WeaponItem.cs"
+"Assets/Scripts/Weapons/WeaponSlotManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+

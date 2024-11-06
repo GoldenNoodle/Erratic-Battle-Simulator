@@ -1,12 +1,16 @@
+using GC.IotaScripts;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace GC
+
+    //Responsible for all functions dealing with player movement and rotation
 {
     public class PlayerMovement : MonoBehaviour
     {
         PlayerManager playerManager;
+        MyHealthManager healthManager;
         Transform cameraObject;
         InputHandling inputHandler;
         Vector3 moveDirection;
@@ -27,12 +31,12 @@ namespace GC
         float rotationSpeed = 10;
 
         public bool isInteracting;
-
         public bool isInAir;
 
         void Start()
         {
             playerManager = GetComponent<PlayerManager>();
+            healthManager = GetComponent<MyHealthManager>();
             rigidbody = GetComponent<Rigidbody>();
             inputHandler = GetComponent<InputHandling>();
             animationHandler = GetComponentInChildren<AnimationHandler>(); //children because its going on player model under player game object
@@ -42,7 +46,9 @@ namespace GC
             Application.targetFrameRate = 60;
 
         }
-        
+
+        //Player Manager Handles this function: Keeping this here for personal use
+        /*
         public void Update()
         {
             float delta = Time.deltaTime;
@@ -52,7 +58,7 @@ namespace GC
             HandleMovement(delta);
             
         }
-        
+        */
 
         #region Movement
         Vector3 normalVector;
@@ -75,7 +81,7 @@ namespace GC
                 targetDir = myTransform.forward;
             }
 
-            float rotSpeed = rotationSpeed;
+            float rotSpeed = (float) (rotationSpeed * healthManager.AccumulatedMovementSpeedMultiplier);
 
             Quaternion targetRot = Quaternion.LookRotation(targetDir);
             Quaternion targetRotation = Quaternion.Slerp(myTransform.rotation, targetRot, rotSpeed * delta);
@@ -92,12 +98,15 @@ namespace GC
             moveDirection.y = 0; //freezes movement in y direction so we dont randomy levitate off the ground
 
 
-            float speed = movementSpeed;
+            float speed = (float) (movementSpeed * healthManager.AccumulatedMovementSpeedMultiplier);
             moveDirection *= speed;
 
             Vector3 projectedVelocity = Vector3.ProjectOnPlane(moveDirection, normalVector);
-            rigidbody.velocity = projectedVelocity;
-
+            bool jump = this.inputHandler.jumpInput && Physics.Raycast(rigidbody.transform.position, Vector3.down, 1f);
+            projectedVelocity.y = rigidbody.velocity.y;
+            rigidbody.velocity = (jump) ? new Vector3(0, (float) (5d * healthManager.AccumulatedJumpHeightMultiplier), 0) : projectedVelocity;
+            this.inputHandler.jumpInput = false;
+            
             animationHandler.UpdateAnimatorValues(inputHandler.moveAmount, 0);
 
 

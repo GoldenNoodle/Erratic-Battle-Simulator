@@ -15,20 +15,13 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 43.2
-<<<<<<< Updated upstream
-    width: 1985.6
-    height: 1108.8
+    y: 43
+    width: 2560
+    height: 1333
   m_ShowMode: 4
-  m_Title: Game
-=======
-    width: 1473.6
-    height: 820.8
-  m_ShowMode: 4
-  m_Title: Project
->>>>>>> Stashed changes
+  m_Title: Scene
   m_RootView: {fileID: 8}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 421}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -47,17 +40,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< Updated upstream
-    y: 496.8
-    width: 560.8
-    height: 260
-=======
-    y: 180.8
-    width: 360.8
-    height: 315.2
->>>>>>> Stashed changes
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+    y: 301
+    width: 627
+    height: 525
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -82,21 +69,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< Updated upstream
-    width: 560.8
-    height: 756.8
+    width: 627
+    height: 826
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 261
-=======
-    width: 360.8
-    height: 496
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 8096, y: 16192}
-  vertical: 1
-  controlID: 53
->>>>>>> Stashed changes
+  controlID: 25
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -117,21 +95,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-<<<<<<< Updated upstream
-    width: 1985.6
-    height: 1058.8
+    width: 2560
+    height: 1283
   m_MinSize: {x: 300, y: 150}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 331
-=======
-    width: 1473.6
-    height: 770.8
-  m_MinSize: {x: 300, y: 150}
-  m_MaxSize: {x: 24288, y: 24288}
-  vertical: 0
-  controlID: 140
->>>>>>> Stashed changes
+  controlID: 148
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -148,21 +117,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< Updated upstream
-    x: 1362.4
+    x: 1751
     y: 0
-    width: 623.19995
-    height: 1058.8
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-=======
-    x: 1008
-    y: 0
-    width: 465.59998
-    height: 770.8
+    width: 809
+    height: 1283
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
->>>>>>> Stashed changes
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -185,13 +145,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< Updated upstream
-    width: 560.8
-    height: 496.8
-=======
-    width: 360.8
-    height: 180.8
->>>>>>> Stashed changes
+    width: 627
+    height: 301
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
@@ -215,15 +170,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< Updated upstream
-    y: 756.8
-    width: 1362.4
-    height: 302.00006
-=======
-    y: 496
-    width: 1008
-    height: 274.8
->>>>>>> Stashed changes
+    y: 826
+    width: 1751
+    height: 457
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 16}
@@ -252,13 +201,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< Updated upstream
-    width: 1985.6
-    height: 1108.8
-=======
-    width: 1473.6
-    height: 820.8
->>>>>>> Stashed changes
+    width: 2560
+    height: 1333
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -282,11 +226,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< Updated upstream
-    width: 1985.6
-=======
-    width: 1473.6
->>>>>>> Stashed changes
+    width: 2560
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -307,13 +247,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< Updated upstream
-    y: 1088.8
-    width: 1985.6
-=======
-    y: 800.8
-    width: 1473.6
->>>>>>> Stashed changes
+    y: 1313
+    width: 2560
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -336,21 +271,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< Updated upstream
-    width: 1362.4
-    height: 1058.8
+    width: 1751
+    height: 1283
   m_MinSize: {x: 200, y: 150}
   m_MaxSize: {x: 16192, y: 24288}
   vertical: 1
-  controlID: 321
-=======
-    width: 1008
-    height: 770.8
-  m_MinSize: {x: 200, y: 150}
-  m_MaxSize: {x: 16192, y: 24288}
-  vertical: 1
-  controlID: 95
->>>>>>> Stashed changes
+  controlID: 88
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -371,21 +297,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< Updated upstream
-    width: 1362.4
-    height: 756.8
+    width: 1751
+    height: 826
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 322
-=======
-    width: 1008
-    height: 496
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 0
-  controlID: 86
->>>>>>> Stashed changes
+  controlID: 89
   draggingID: 0
 --- !u!114 &13
 MonoBehaviour:
@@ -402,17 +319,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< Updated upstream
-    x: 560.8
+    x: 627
     y: 0
-    width: 801.60004
-    height: 756.8
-=======
-    x: 360.8
-    y: 0
-    width: 647.2
-    height: 496
->>>>>>> Stashed changes
+    width: 1124
+    height: 826
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
@@ -473,14 +383,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Animator
-    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1720
-    y: 81
-    width: 436
-    height: 890
+    x: 600
+    y: 73
+    width: 1149
+    height: 896
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -498,6 +408,7 @@ MonoBehaviour:
     - {fileID: 9073175644027516473, guid: 9c1e5ad69b60aa848b5ea77754aad0bf, type: 2}
     - {fileID: 3539312740766670326, guid: 9c1e5ad69b60aa848b5ea77754aad0bf, type: 2}
     - {fileID: -7748125795335397196, guid: af7004dc57ce197449495d48986a4a5b, type: 2}
+    - {fileID: 701467417574490306, guid: 9c1e5ad69b60aa848b5ea77754aad0bf, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.77627337
       e01: 0
@@ -531,14 +442,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.95578945
+    - e00: 0.6061343
       e01: 0
       e02: 0
-      e03: -32.78946
+      e03: 108.08666
       e10: 0
-      e11: 0.95578945
+      e11: 0.6061343
       e12: 0
-      e13: 148.70001
+      e13: 170.0638
       e20: 0
       e21: 0
       e22: 1
@@ -547,14 +458,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 1.2969131
+    - e00: 0.94004184
       e01: 0
       e02: 0
-      e03: -30.72638
+      e03: 65.22084
       e10: 0
-      e11: 1.2969131
+      e11: 0.94004184
       e12: 0
-      e13: -28.276436
+      e13: 155.68762
       e20: 0
       e21: 0
       e22: 1
@@ -579,10 +490,26 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 0.715399
+      e01: 0
+      e02: 0
+      e03: 15.808678
+      e10: 0
+      e11: 0.715399
+      e12: 0
+      e13: 79.047516
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: af7004dc57ce197449495d48986a4a5b, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: 9c1e5ad69b60aa848b5ea77754aad0bf, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -7748125795335397196, guid: af7004dc57ce197449495d48986a4a5b, type: 2}
+  - m_Target: {fileID: 701467417574490306, guid: 9c1e5ad69b60aa848b5ea77754aad0bf, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -611,20 +538,14 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-<<<<<<< Updated upstream
-    y: 830.4
-    width: 1361.4
-    height: 281.00006
-=======
-    y: 569.60004
-    width: 1007
-    height: 253.79999
->>>>>>> Stashed changes
+    y: 899
+    width: 1750
+    height: 436
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -646,11 +567,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< Updated upstream
-    - Assets/Scripts/MainMenu
-=======
-    - Assets/Scripts
->>>>>>> Stashed changes
+    - Assets/Scripts/Weapons
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -658,28 +575,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-<<<<<<< Updated upstream
-  - Assets/Scripts/MainMenu
-=======
-  - Assets/Scripts
->>>>>>> Stashed changes
+  - Assets/Scripts/Weapons
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\geoga\Documents\Engineering\Unity\EBS\Coliseum of the
-    Gods
+  m_LastProjectPath: C:\Users\David\Documents\GitHub\Erratic-Battle-Simulator\Coliseum
+    of the Gods
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-<<<<<<< Updated upstream
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d4210000
-    m_LastClickedID: 8660
-    m_ExpandedIDs: 00000000d021000024740000
-=======
     scrollPos: {x: 0, y: 4}
-    m_SelectedIDs: d86d0000
-    m_LastClickedID: 28120
-    m_ExpandedIDs: 00000000cc6d0000ce6d0000d06d0000d26d0000d46d0000d66d0000d86d0000
->>>>>>> Stashed changes
+    m_SelectedIDs: 1e670000
+    m_LastClickedID: 26398
+    m_ExpandedIDs: 00000000ec660000ee660000f0660000f2660000f4660000f6660000f86600000867000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -707,11 +613,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< Updated upstream
-    m_ExpandedIDs: 00000000d021000024740000
-=======
-    m_ExpandedIDs: 00000000cc6d0000ce6d0000d06d0000d26d0000d46d0000d66d0000d86d0000
->>>>>>> Stashed changes
+    m_ExpandedIDs: 00000000ec660000ee660000f0660000f2660000f4660000f6660000f8660000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -739,7 +641,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300003c5d000000000000
+    m_ExpandedInstanceIDs: c62300003c5d000094240000e42400000000000038690000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -783,21 +685,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< Updated upstream
-    x: 1362.4
-    y: 73.6
-    width: 622.19995
-    height: 1037.8
-=======
-    x: 1008
-    y: 73.6
-    width: 464.59998
-    height: 749.8
->>>>>>> Stashed changes
+    x: 1751
+    y: 73
+    width: 808
+    height: 1262
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -837,19 +732,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 73.6
-<<<<<<< Updated upstream
-    width: 559.8
-    height: 475.8
-=======
-    width: 359.8
-    height: 159.8
->>>>>>> Stashed changes
+    y: 73
+    width: 626
+    height: 280
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -862,17 +752,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-<<<<<<< Updated upstream
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 992}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2256ffff0857ffff785cffffce5dffff2062ffffa87d0000d27d0000
-=======
-      scrollPos: {x: 0, y: 85.2}
-      m_SelectedIDs: ea1e0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: dee8ffff
->>>>>>> Stashed changes
+      m_ExpandedIDs: 6233ffff72f2ffff16faffff4a6200004e6200005a640000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -912,21 +795,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< Updated upstream
-    x: 560.8
-    y: 73.6
-    width: 799.60004
-    height: 735.8
-=======
-    x: 360.80002
-    y: 73.6
-    width: 645.2
-    height: 475
->>>>>>> Stashed changes
+    x: 627
+    y: 73
+    width: 1122
+    height: 805
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -941,8 +817,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -174, y: -26}
-      snapOffsetDelta: {x: 0, y: -0.4000244}
+      snapOffset: {x: -174.40002, y: -26.400024}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -1233,15 +1109,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< Updated upstream
-    m_Target: {x: 8.008593, y: -0.747818, z: -15.851255}
+    m_Target: {x: -9.701823, y: 10.220861, z: -7.7273173}
     speed: 2
-    m_Value: {x: 8.008593, y: -0.747818, z: -15.851255}
-=======
-    m_Target: {x: -8.58271, y: 8.992014, z: -6.1816645}
-    speed: 2
-    m_Value: {x: -8.58271, y: 8.992014, z: -6.1816645}
->>>>>>> Stashed changes
+    m_Value: {x: -9.701823, y: 10.220861, z: -7.7273173}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1287,30 +1157,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-<<<<<<< Updated upstream
-    m_Target: {x: 0.014383016, y: -0.9307858, z: 0.3634944, w: 0.036890075}
+    m_Target: {x: -0.41255027, y: -0.5759089, z: 0.41753516, w: -0.5690333}
     speed: 2
-    m_Value: {x: 0.0143826, y: -0.93075883, z: 0.36348388, w: 0.036889005}
+    m_Value: {x: -0.4125496, y: -0.57590795, z: 0.41753447, w: -0.5690324}
   m_Size:
-    m_Target: 4.7471414
+    m_Target: 23.76338
     speed: 2
-    m_Value: 4.7471414
-=======
-    m_Target: {x: -0.18433389, y: -0.4252344, z: 0.088906094, w: -0.8816447}
-    speed: 2
-    m_Value: {x: -0.18433343, y: -0.42523333, z: 0.08890587, w: -0.8816425}
-  m_Size:
-    m_Target: 10.967714
-    speed: 2
-    m_Value: 10.967714
->>>>>>> Stashed changes
+    m_Value: 22.740076
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.040980026
-    m_SpeedNormalized: 0.020000013
+    m_Speed: 0.001
+    m_SpeedNormalized: 0
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1321,7 +1181,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0.0026881082, y: -0.030895526, z: -0.00010458545, w: -0.9995492}
+  m_LastSceneViewRotation: {x: -0.0011907049, y: 0.0026763033, z: 0.00001957122, w: 1.0000654}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -1344,20 +1204,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-<<<<<<< Updated upstream
-    y: 570.4
-    width: 559.8
-    height: 239
-=======
-    y: 254.40001
-    width: 359.8
-    height: 294.2
->>>>>>> Stashed changes
+    y: 374
+    width: 626
+    height: 504
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1384,21 +1238,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< Updated upstream
-    x: 560.8
-    y: 73.6
-    width: 799.60004
-    height: 735.8
-=======
-    x: 360.80002
-    y: 73.6
-    width: 645.2
-    height: 475
->>>>>>> Stashed changes
+    x: 627
+    y: 73
+    width: 1122
+    height: 805
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1417,11 +1264,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-<<<<<<< Updated upstream
-  m_TargetSize: {x: 799.60004, y: 714.8}
-=======
-  m_TargetSize: {x: 645.2, y: 454}
->>>>>>> Stashed changes
+  m_TargetSize: {x: 1122, y: 784}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1436,17 +1279,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-<<<<<<< Updated upstream
-    m_HBaseRangeMin: -319.84003
-    m_HBaseRangeMax: 319.84003
-    m_VBaseRangeMin: -285.92
-    m_VBaseRangeMax: 285.92
-=======
-    m_HBaseRangeMin: -258.08002
-    m_HBaseRangeMax: 258.08002
-    m_VBaseRangeMin: -181.6
-    m_VBaseRangeMax: 181.6
->>>>>>> Stashed changes
+    m_HBaseRangeMin: -561
+    m_HBaseRangeMax: 561
+    m_VBaseRangeMin: -392
+    m_VBaseRangeMax: 392
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1464,40 +1300,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-<<<<<<< Updated upstream
-      width: 799.60004
-      height: 714.8
-    m_Scale: {x: 1.25, y: 1.25}
-    m_Translation: {x: 399.80005, y: 357.39996}
-=======
-      width: 645.2
-      height: 454
-    m_Scale: {x: 1.25, y: 1.25}
-    m_Translation: {x: 322.60004, y: 227}
->>>>>>> Stashed changes
+      width: 1122
+      height: 784
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 561, y: 392}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-<<<<<<< Updated upstream
-      x: -319.84003
-      y: -285.91998
-      width: 639.68005
-      height: 571.83997
+      x: -561
+      y: -392
+      width: 1122
+      height: 784
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 999.50006, y: 919.75}
-=======
-      x: -258.08002
-      y: -181.6
-      width: 516.16003
-      height: 363.2
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 806.5, y: 593.75}
->>>>>>> Stashed changes
+  m_LastWindowPixelSize: {x: 1122, y: 805}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000

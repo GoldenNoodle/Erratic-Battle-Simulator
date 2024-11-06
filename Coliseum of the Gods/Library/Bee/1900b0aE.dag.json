@@ -387,8 +387,8 @@
       "DisplayName": "Writing UnityEngine.TestRunner.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
       "PayloadOffset": 107,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.UnityAdditionalFile.txt"
@@ -399,8 +399,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.rsp",
       "DisplayName": "Writing UnityEngine.TestRunner.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 267,
-      "PayloadLength": 44556,
+      "PayloadOffset": 277,
+      "PayloadLength": 44530,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -412,9 +412,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.rsp2",
       "DisplayName": "Writing UnityEngine.TestRunner.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 44917,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 44901,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.rsp2"
@@ -2267,7 +2267,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEngine.TestRunner.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 45100,
+      "PayloadOffset": 45094,
       "PayloadLength": 7441,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -2470,9 +2470,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt",
       "DisplayName": "Writing UnityEngine.UI.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 52646,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 52640,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt"
@@ -2483,12 +2483,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp",
       "DisplayName": "Writing UnityEngine.UI.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 52798,
-<<<<<<< Updated upstream
-      "PayloadLength": 39112,
-=======
-      "PayloadLength": 39204,
->>>>>>> Stashed changes
+      "PayloadOffset": 52802,
+      "PayloadLength": 39178,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -2500,13 +2496,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp2",
       "DisplayName": "Writing UnityEngine.UI.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 91996,
-=======
-      "PayloadOffset": 92088,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 92066,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp2"
@@ -2730,6 +2722,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -2946,11 +2939,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEngine.UI.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 92171,
-=======
-      "PayloadOffset": 92263,
->>>>>>> Stashed changes
+      "PayloadOffset": 92251,
       "PayloadLength": 7979,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -3165,13 +3154,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.UnityAdditionalFile.txt",
       "DisplayName": "Writing UnityEditor.TestRunner.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 100263,
-=======
-      "PayloadOffset": 100355,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 100343,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.UnityAdditionalFile.txt"
@@ -3182,12 +3167,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.rsp",
       "DisplayName": "Writing UnityEditor.TestRunner.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 100423,
-=======
-      "PayloadOffset": 100515,
->>>>>>> Stashed changes
-      "PayloadLength": 50616,
+      "PayloadOffset": 100513,
+      "PayloadLength": 50590,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -3199,13 +3180,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.rsp2",
       "DisplayName": "Writing UnityEditor.TestRunner.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 151133,
-=======
-      "PayloadOffset": 151225,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 151197,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.rsp2"
@@ -3664,11 +3641,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEditor.TestRunner.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 151316,
-=======
-      "PayloadOffset": 151408,
->>>>>>> Stashed changes
+      "PayloadOffset": 151390,
       "PayloadLength": 7607,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -3875,13 +3848,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt",
       "DisplayName": "Writing UnityEditor.UI.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 159028,
-=======
-      "PayloadOffset": 159120,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 159102,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt"
@@ -3892,13 +3861,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.rsp",
       "DisplayName": "Writing UnityEditor.UI.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 159180,
-      "PayloadLength": 36226,
-=======
-      "PayloadOffset": 159272,
-      "PayloadLength": 36318,
->>>>>>> Stashed changes
+      "PayloadOffset": 159264,
+      "PayloadLength": 36292,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -3910,13 +3874,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.rsp2",
       "DisplayName": "Writing UnityEditor.UI.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 195492,
-=======
-      "PayloadOffset": 195676,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 195642,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.rsp2"
@@ -4145,6 +4105,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -4265,11 +4226,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEditor.UI.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 195667,
-=======
-      "PayloadOffset": 195851,
->>>>>>> Stashed changes
+      "PayloadOffset": 195827,
       "PayloadLength": 8305,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -4492,13 +4449,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 204092,
-=======
-      "PayloadOffset": 204276,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 204252,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt"
@@ -4509,13 +4462,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.rsp",
       "DisplayName": "Writing Unity.EditorCoroutines.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 204259,
-      "PayloadLength": 33680,
-=======
-      "PayloadOffset": 204443,
-      "PayloadLength": 33772,
->>>>>>> Stashed changes
+      "PayloadOffset": 204429,
+      "PayloadLength": 33746,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -4527,13 +4475,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.rsp2",
       "DisplayName": "Writing Unity.EditorCoroutines.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 238040,
-=======
-      "PayloadOffset": 238316,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 238276,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.rsp2"
@@ -4762,6 +4706,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -4833,11 +4778,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.EditorCoroutines.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 238230,
-=======
-      "PayloadOffset": 238506,
->>>>>>> Stashed changes
+      "PayloadOffset": 238476,
       "PayloadLength": 8381,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -5062,13 +5003,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.InputSystem.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 246719,
-=======
-      "PayloadOffset": 246995,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 246965,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.UnityAdditionalFile.txt"
@@ -5079,13 +5016,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.rsp",
       "DisplayName": "Writing Unity.InputSystem.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 246874,
-      "PayloadLength": 72505,
-=======
-      "PayloadOffset": 247150,
-      "PayloadLength": 72597,
->>>>>>> Stashed changes
+      "PayloadOffset": 247130,
+      "PayloadLength": 72571,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -5097,13 +5029,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.rsp2",
       "DisplayName": "Writing Unity.InputSystem.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 319468,
-=======
-      "PayloadOffset": 319836,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 319790,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.rsp2"
@@ -5327,6 +5255,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -5767,11 +5696,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.InputSystem.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 319646,
-=======
-      "PayloadOffset": 320014,
->>>>>>> Stashed changes
+      "PayloadOffset": 319978,
       "PayloadLength": 8131,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -5990,13 +5915,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Performance.Profile-Analyzer.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 327909,
-=======
-      "PayloadOffset": 328277,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 328241,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.UnityAdditionalFile.txt"
@@ -6007,13 +5928,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.rsp",
       "DisplayName": "Writing Unity.Performance.Profile-Analyzer.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 328088,
-      "PayloadLength": 36424,
-=======
-      "PayloadOffset": 328456,
-      "PayloadLength": 36516,
->>>>>>> Stashed changes
+      "PayloadOffset": 328430,
+      "PayloadLength": 36490,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -6025,13 +5941,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.rsp2",
       "DisplayName": "Writing Unity.Performance.Profile-Analyzer.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 364625,
-=======
-      "PayloadOffset": 365085,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 365033,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.rsp2"
@@ -6260,6 +6172,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -6342,11 +6255,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Performance.Profile-Analyzer.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 364827,
-=======
-      "PayloadOffset": 365287,
->>>>>>> Stashed changes
+      "PayloadOffset": 365245,
       "PayloadLength": 8381,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -6571,13 +6480,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.PlasticSCM.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 373322,
-=======
-      "PayloadOffset": 373782,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 373740,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.UnityAdditionalFile.txt"
@@ -6588,12 +6493,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.rsp",
       "DisplayName": "Writing Unity.PlasticSCM.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 373483,
-=======
-      "PayloadOffset": 373943,
->>>>>>> Stashed changes
-      "PayloadLength": 64829,
+      "PayloadOffset": 373911,
+      "PayloadLength": 64803,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -6605,13 +6506,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.rsp2",
       "DisplayName": "Writing Unity.PlasticSCM.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 438407,
-=======
-      "PayloadOffset": 438867,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 438809,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.rsp2"
@@ -7188,11 +7085,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.PlasticSCM.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 438591,
-=======
-      "PayloadOffset": 439051,
->>>>>>> Stashed changes
+      "PayloadOffset": 439003,
       "PayloadLength": 7930,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -7407,13 +7300,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Rider.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 446630,
-=======
-      "PayloadOffset": 447090,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 447042,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.UnityAdditionalFile.txt"
@@ -7424,12 +7313,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.rsp",
       "DisplayName": "Writing Unity.Rider.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 446786,
-=======
-      "PayloadOffset": 447246,
->>>>>>> Stashed changes
-      "PayloadLength": 36042,
+      "PayloadOffset": 447208,
+      "PayloadLength": 36016,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -7441,13 +7326,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.rsp2",
       "DisplayName": "Writing Unity.Rider.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 482918,
-=======
-      "PayloadOffset": 483378,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 483314,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.rsp2"
@@ -7757,11 +7638,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Rider.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 483097,
-=======
-      "PayloadOffset": 483557,
->>>>>>> Stashed changes
+      "PayloadOffset": 483503,
       "PayloadLength": 7843,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -7974,13 +7851,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Settings.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 491052,
-=======
-      "PayloadOffset": 491512,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 491458,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.UnityAdditionalFile.txt"
@@ -7991,13 +7864,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.rsp",
       "DisplayName": "Writing Unity.Settings.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 491211,
-      "PayloadLength": 34387,
-=======
-      "PayloadOffset": 491671,
-      "PayloadLength": 34479,
->>>>>>> Stashed changes
+      "PayloadOffset": 491627,
+      "PayloadLength": 34453,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -8009,13 +7877,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.rsp2",
       "DisplayName": "Writing Unity.Settings.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 525691,
-=======
-      "PayloadOffset": 526243,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 526173,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.rsp2"
@@ -8244,6 +8108,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -8306,11 +8171,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Settings.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 525873,
-=======
-      "PayloadOffset": 526425,
->>>>>>> Stashed changes
+      "PayloadOffset": 526365,
       "PayloadLength": 8381,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -8535,13 +8396,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 534396,
-=======
-      "PayloadOffset": 534948,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 534888,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.UnityAdditionalFile.txt"
@@ -8552,13 +8409,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 534585,
-      "PayloadLength": 35146,
-=======
-      "PayloadOffset": 535137,
-      "PayloadLength": 35238,
->>>>>>> Stashed changes
+      "PayloadOffset": 535087,
+      "PayloadLength": 35212,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -8570,13 +8422,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp2",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 569854,
-=======
-      "PayloadOffset": 570498,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 570422,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp2"
@@ -8805,6 +8653,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -8869,11 +8718,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 570066,
-=======
-      "PayloadOffset": 570710,
->>>>>>> Stashed changes
+      "PayloadOffset": 570644,
       "PayloadLength": 8381,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -9098,13 +8943,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 578599,
-=======
-      "PayloadOffset": 579243,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 579177,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt"
@@ -9115,13 +8956,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 578798,
-      "PayloadLength": 33930,
-=======
-      "PayloadOffset": 579442,
-      "PayloadLength": 34022,
->>>>>>> Stashed changes
+      "PayloadOffset": 579386,
+      "PayloadLength": 33996,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -9133,13 +8969,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp2",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 612861,
-=======
-      "PayloadOffset": 613597,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 613515,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp2"
@@ -9368,6 +9200,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -9421,11 +9254,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 613083,
-=======
-      "PayloadOffset": 613819,
->>>>>>> Stashed changes
+      "PayloadOffset": 613747,
       "PayloadLength": 8381,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -9650,13 +9479,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TextMeshPro.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 621572,
-=======
-      "PayloadOffset": 622308,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 622236,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt"
@@ -9667,13 +9492,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 621727,
-      "PayloadLength": 37237,
-=======
-      "PayloadOffset": 622463,
-      "PayloadLength": 37329,
->>>>>>> Stashed changes
+      "PayloadOffset": 622401,
+      "PayloadLength": 37303,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -9685,13 +9505,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp2",
       "DisplayName": "Writing Unity.TextMeshPro.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 659053,
-=======
-      "PayloadOffset": 659881,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 659793,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp2"
@@ -9915,6 +9731,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -10019,11 +9836,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 659231,
-=======
-      "PayloadOffset": 660059,
->>>>>>> Stashed changes
+      "PayloadOffset": 659981,
       "PayloadLength": 8131,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -10242,13 +10055,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Timeline.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 667467,
-=======
-      "PayloadOffset": 668295,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 668217,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.UnityAdditionalFile.txt"
@@ -10259,13 +10068,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.rsp",
       "DisplayName": "Writing Unity.Timeline.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 667619,
-      "PayloadLength": 38270,
-=======
-      "PayloadOffset": 668447,
-      "PayloadLength": 38362,
->>>>>>> Stashed changes
+      "PayloadOffset": 668379,
+      "PayloadLength": 38336,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -10277,13 +10081,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.rsp2",
       "DisplayName": "Writing Unity.Timeline.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 705975,
-=======
-      "PayloadOffset": 706895,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 706801,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.rsp2"
@@ -10507,6 +10307,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -10625,11 +10426,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Timeline.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 706150,
-=======
-      "PayloadOffset": 707070,
->>>>>>> Stashed changes
+      "PayloadOffset": 706986,
       "PayloadLength": 8131,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -10848,13 +10645,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VSCode.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 714391,
-=======
-      "PayloadOffset": 715311,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 715227,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.UnityAdditionalFile.txt"
@@ -10865,13 +10658,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.rsp",
       "DisplayName": "Writing Unity.VSCode.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 714548,
-      "PayloadLength": 34040,
-=======
-      "PayloadOffset": 715468,
-      "PayloadLength": 34132,
->>>>>>> Stashed changes
+      "PayloadOffset": 715394,
+      "PayloadLength": 34106,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -10883,13 +10671,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.rsp2",
       "DisplayName": "Writing Unity.VSCode.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 748679,
-=======
-      "PayloadOffset": 749691,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 749591,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.rsp2"
@@ -11118,6 +10902,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -11175,11 +10960,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VSCode.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 748859,
-=======
-      "PayloadOffset": 749871,
->>>>>>> Stashed changes
+      "PayloadOffset": 749781,
       "PayloadLength": 8381,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -11404,13 +11185,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualStudio.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 757356,
-=======
-      "PayloadOffset": 758368,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 758278,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.UnityAdditionalFile.txt"
@@ -11421,13 +11198,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.rsp",
       "DisplayName": "Writing Unity.VisualStudio.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 757519,
-      "PayloadLength": 36325,
-=======
-      "PayloadOffset": 758531,
-      "PayloadLength": 36417,
->>>>>>> Stashed changes
+      "PayloadOffset": 758451,
+      "PayloadLength": 36391,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -11439,13 +11211,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualStudio.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 793941,
-=======
-      "PayloadOffset": 795045,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 794939,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.rsp2"
@@ -11670,6 +11438,7 @@
         "C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll",
@@ -11760,11 +11529,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualStudio.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 794127,
-=======
-      "PayloadOffset": 795231,
->>>>>>> Stashed changes
+      "PayloadOffset": 795135,
       "PayloadLength": 7843,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -11977,13 +11742,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.CollabProxy.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 802085,
-=======
-      "PayloadOffset": 803189,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 803093,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.UnityAdditionalFile.txt"
@@ -11994,13 +11755,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.rsp",
       "DisplayName": "Writing Unity.CollabProxy.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 802247,
-      "PayloadLength": 33477,
-=======
-      "PayloadOffset": 803351,
-      "PayloadLength": 33569,
->>>>>>> Stashed changes
+      "PayloadOffset": 803265,
+      "PayloadLength": 33543,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -12012,13 +11768,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.rsp2",
       "DisplayName": "Writing Unity.CollabProxy.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 835820,
-=======
-      "PayloadOffset": 837016,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 836904,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.rsp2"
@@ -12247,6 +11999,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -12317,11 +12070,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.CollabProxy.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 836005,
-=======
-      "PayloadOffset": 837201,
->>>>>>> Stashed changes
+      "PayloadOffset": 837099,
       "PayloadLength": 8466,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -12548,13 +12297,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.InputSystem.ForUI.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 844585,
-=======
-      "PayloadOffset": 845781,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 845679,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.UnityAdditionalFile.txt"
@@ -12565,13 +12310,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.rsp",
       "DisplayName": "Writing Unity.InputSystem.ForUI.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 844746,
-      "PayloadLength": 32424,
-=======
-      "PayloadOffset": 845942,
-      "PayloadLength": 32516,
->>>>>>> Stashed changes
+      "PayloadOffset": 845850,
+      "PayloadLength": 32490,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -12583,13 +12323,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.rsp2",
       "DisplayName": "Writing Unity.InputSystem.ForUI.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 877265,
-=======
-      "PayloadOffset": 878553,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 878435,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.rsp2"
@@ -12813,6 +12549,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -12881,11 +12618,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.InputSystem.ForUI.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 877449,
-=======
-      "PayloadOffset": 878737,
->>>>>>> Stashed changes
+      "PayloadOffset": 878629,
       "PayloadLength": 8210,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -13106,13 +12839,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.TestFramework.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.InputSystem.TestFramework.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 885781,
-=======
-      "PayloadOffset": 887069,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 886961,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.TestFramework.UnityAdditionalFile.txt"
@@ -13123,12 +12852,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.TestFramework.rsp",
       "DisplayName": "Writing Unity.InputSystem.TestFramework.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 885950,
-=======
-      "PayloadOffset": 887238,
->>>>>>> Stashed changes
-      "PayloadLength": 31463,
+      "PayloadOffset": 887140,
+      "PayloadLength": 31437,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -13140,13 +12865,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.TestFramework.rsp2",
       "DisplayName": "Writing Unity.InputSystem.TestFramework.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 917516,
-=======
-      "PayloadOffset": 918804,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 918680,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.TestFramework.rsp2"
@@ -13416,11 +13137,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.TestFramework.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.InputSystem.TestFramework.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 917708,
-=======
-      "PayloadOffset": 918996,
->>>>>>> Stashed changes
+      "PayloadOffset": 918882,
       "PayloadLength": 7580,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -13627,13 +13344,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 925414,
-=======
-      "PayloadOffset": 926702,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 926588,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.UnityAdditionalFile.txt"
@@ -13644,12 +13357,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 925587,
-=======
-      "PayloadOffset": 926875,
->>>>>>> Stashed changes
-      "PayloadLength": 37680,
+      "PayloadOffset": 926771,
+      "PayloadLength": 37654,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -13661,13 +13370,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.rsp2",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 963374,
-=======
-      "PayloadOffset": 964662,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 964532,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.rsp2"
@@ -14046,11 +13751,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 963570,
-=======
-      "PayloadOffset": 964858,
->>>>>>> Stashed changes
+      "PayloadOffset": 964738,
       "PayloadLength": 8162,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -14269,13 +13970,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 971847,
-=======
-      "PayloadOffset": 973135,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 973015,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt"
@@ -14286,13 +13983,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 972009,
-      "PayloadLength": 37794,
-=======
-      "PayloadOffset": 973297,
-      "PayloadLength": 37886,
->>>>>>> Stashed changes
+      "PayloadOffset": 973187,
+      "PayloadLength": 37860,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -14304,13 +13996,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp2",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1009899,
-=======
-      "PayloadOffset": 1011279,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 1011143,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp2"
@@ -14539,6 +14227,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -14656,11 +14345,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1010084,
-=======
-      "PayloadOffset": 1011464,
->>>>>>> Stashed changes
+      "PayloadOffset": 1011338,
       "PayloadLength": 8460,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -14887,13 +14572,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Timeline.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1018656,
-=======
-      "PayloadOffset": 1020036,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 1019910,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.UnityAdditionalFile.txt"
@@ -14904,13 +14585,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.rsp",
       "DisplayName": "Writing Unity.Timeline.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1018815,
-      "PayloadLength": 57409,
-=======
-      "PayloadOffset": 1020195,
-      "PayloadLength": 57501,
->>>>>>> Stashed changes
+      "PayloadOffset": 1020079,
+      "PayloadLength": 57475,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -14922,13 +14598,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.rsp2",
       "DisplayName": "Writing Unity.Timeline.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1076317,
-=======
-      "PayloadOffset": 1077789,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 1077647,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.rsp2"
@@ -15157,6 +14829,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -15498,11 +15171,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Timeline.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1076499,
-=======
-      "PayloadOffset": 1077971,
->>>>>>> Stashed changes
+      "PayloadOffset": 1077839,
       "PayloadLength": 8457,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -15729,13 +15398,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Core.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1085073,
-=======
-      "PayloadOffset": 1086545,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 1086413,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt"
@@ -15746,13 +15411,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1085237,
-      "PayloadLength": 85918,
-=======
-      "PayloadOffset": 1086709,
-      "PayloadLength": 86010,
->>>>>>> Stashed changes
+      "PayloadOffset": 1086587,
+      "PayloadLength": 85984,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -15764,13 +15424,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Core.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1171253,
-=======
-      "PayloadOffset": 1172817,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 1172669,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.rsp2"
@@ -15994,6 +15650,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -16470,11 +16127,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1171440,
-=======
-      "PayloadOffset": 1173004,
->>>>>>> Stashed changes
+      "PayloadOffset": 1172866,
       "PayloadLength": 8210,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -16695,13 +16348,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1179774,
-=======
-      "PayloadOffset": 1181338,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 1181200,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt"
@@ -16712,13 +16361,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1179945,
-      "PayloadLength": 89877,
-=======
-      "PayloadOffset": 1181509,
-      "PayloadLength": 89969,
->>>>>>> Stashed changes
+      "PayloadOffset": 1181381,
+      "PayloadLength": 89943,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -16730,13 +16374,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Core.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1269927,
-=======
-      "PayloadOffset": 1271583,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 1271429,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.rsp2"
@@ -16965,6 +16605,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -17504,11 +17145,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1270121,
-=======
-      "PayloadOffset": 1271777,
->>>>>>> Stashed changes
+      "PayloadOffset": 1271633,
       "PayloadLength": 8469,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -17735,13 +17372,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Flow.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1278707,
-=======
-      "PayloadOffset": 1280363,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 1280219,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt"
@@ -17752,13 +17385,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1278871,
-      "PayloadLength": 81272,
-=======
-      "PayloadOffset": 1280527,
-      "PayloadLength": 81364,
->>>>>>> Stashed changes
+      "PayloadOffset": 1280393,
+      "PayloadLength": 81338,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -17770,13 +17398,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Flow.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1360241,
-=======
-      "PayloadOffset": 1361989,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 1361829,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.rsp2"
@@ -18000,6 +17624,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -18451,11 +18076,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1360428,
-=======
-      "PayloadOffset": 1362176,
->>>>>>> Stashed changes
+      "PayloadOffset": 1362026,
       "PayloadLength": 8298,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -18678,13 +18299,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1368850,
-=======
-      "PayloadOffset": 1370598,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 1370448,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt"
@@ -18695,13 +18312,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1369021,
-      "PayloadLength": 53888,
-=======
-      "PayloadOffset": 1370769,
-      "PayloadLength": 53980,
->>>>>>> Stashed changes
+      "PayloadOffset": 1370629,
+      "PayloadLength": 53954,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -18713,13 +18325,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Flow.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1423014,
-=======
-      "PayloadOffset": 1424854,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 1424688,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp2"
@@ -18948,6 +18556,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -19210,11 +18819,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1423208,
-=======
-      "PayloadOffset": 1425048,
->>>>>>> Stashed changes
+      "PayloadOffset": 1424892,
       "PayloadLength": 8731,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -19447,13 +19052,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.State.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1432057,
-=======
-      "PayloadOffset": 1433897,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 1433741,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt"
@@ -19464,13 +19065,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1432222,
-      "PayloadLength": 35447,
-=======
-      "PayloadOffset": 1434062,
-      "PayloadLength": 35539,
->>>>>>> Stashed changes
+      "PayloadOffset": 1433916,
+      "PayloadLength": 35513,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -19482,13 +19078,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.State.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1467768,
-=======
-      "PayloadOffset": 1469700,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 1469528,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.rsp2"
@@ -19712,6 +19304,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -19792,11 +19385,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1467956,
-=======
-      "PayloadOffset": 1469888,
->>>>>>> Stashed changes
+      "PayloadOffset": 1469726,
       "PayloadLength": 8307,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -20019,13 +19608,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1476399,
-=======
-      "PayloadOffset": 1478331,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 1478169,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt"
@@ -20036,13 +19621,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.SettingsProvider.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1476582,
-      "PayloadLength": 34940,
-=======
-      "PayloadOffset": 1478514,
-      "PayloadLength": 35032,
->>>>>>> Stashed changes
+      "PayloadOffset": 1478362,
+      "PayloadLength": 35006,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -20054,13 +19634,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.SettingsProvider.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1511639,
-=======
-      "PayloadOffset": 1513663,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 1513485,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp2"
@@ -20289,6 +19865,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -20394,11 +19971,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.SettingsProvider.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1511845,
-=======
-      "PayloadOffset": 1513869,
->>>>>>> Stashed changes
+      "PayloadOffset": 1513701,
       "PayloadLength": 8836,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -20633,13 +20206,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1520806,
-=======
-      "PayloadOffset": 1522830,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 1522662,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt"
@@ -20650,13 +20219,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1520978,
-      "PayloadLength": 41709,
-=======
-      "PayloadOffset": 1523002,
-      "PayloadLength": 41801,
->>>>>>> Stashed changes
+      "PayloadOffset": 1522844,
+      "PayloadLength": 41775,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -20668,13 +20232,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.State.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1562793,
-=======
-      "PayloadOffset": 1564909,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 1564725,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.rsp2"
@@ -20903,6 +20463,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -21030,11 +20591,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1562988,
-=======
-      "PayloadOffset": 1565104,
->>>>>>> Stashed changes
+      "PayloadOffset": 1564930,
       "PayloadLength": 8836,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -21269,13 +20826,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1571950,
-=======
-      "PayloadOffset": 1574066,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 1573892,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt"
@@ -21286,13 +20839,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Shared.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1572123,
-      "PayloadLength": 33921,
-=======
-      "PayloadOffset": 1574239,
-      "PayloadLength": 34013,
->>>>>>> Stashed changes
+      "PayloadOffset": 1574075,
+      "PayloadLength": 33987,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -21304,13 +20852,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Shared.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1606151,
-=======
-      "PayloadOffset": 1608359,
->>>>>>> Stashed changes
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\geoga\\Docum",
+      "PayloadOffset": 1608169,
+      "PayloadLength": 90,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\David\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp2"
@@ -21539,6 +21083,7 @@
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll",
@@ -21619,11 +21164,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Shared.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1606347,
-=======
-      "PayloadOffset": 1608555,
->>>>>>> Stashed changes
+      "PayloadOffset": 1608375,
       "PayloadLength": 8932,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -21860,13 +21401,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt",
       "DisplayName": "Writing Assembly-CSharp.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1615385,
-=======
-      "PayloadOffset": 1617593,
->>>>>>> Stashed changes
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "C:\\Users\\geoga\\Documents\\Engin",
+      "PayloadOffset": 1617413,
+      "PayloadLength": 77,
+      "PayloadDebugContentSnippet": "C:\\Users\\David\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
@@ -21877,13 +21414,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1615538,
-      "PayloadLength": 33013,
-=======
-      "PayloadOffset": 1617746,
-      "PayloadLength": 33587,
->>>>>>> Stashed changes
+      "PayloadOffset": 1617576,
+      "PayloadLength": 33561,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -21895,11 +21427,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1648638,
-=======
-      "PayloadOffset": 1651420,
->>>>>>> Stashed changes
+      "PayloadOffset": 1651224,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -22118,6 +21646,7 @@
         "C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll",
@@ -22146,15 +21675,27 @@
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll",
         "Assets/Animations/AnimationHandler.cs",
+        "Assets/PlayerAttacker.cs",
+        "Assets/ResetAnimatorBool.cs",
         "Assets/Scripts/CameraScripts/CameraHandler.cs",
+        "Assets/Scripts/Extensions/GameObjectExt.cs",
+        "Assets/Scripts/FloorMeshShifter.cs",
+        "Assets/Scripts/HealthSystem/DamageOverTime.cs",
+        "Assets/Scripts/HealthSystem/MyHealth.cs",
+        "Assets/Scripts/HealthSystem/WeaponHandler.cs",
         "Assets/Scripts/MainMenu/TitleScreenManager.cs",
         "Assets/Scripts/MainMenu/TitleScreenMenu.cs",
-        "Assets/Scripts/MyHealth.cs",
         "Assets/Scripts/NPC/NPCManager.cs",
         "Assets/Scripts/PlayerManager.cs",
         "Assets/Scripts/PlayerMove/InputHandling.cs",
         "Assets/Scripts/PlayerMove/PlayerControls.cs",
         "Assets/Scripts/PlayerMove/PlayerMovement.cs",
+        "Assets/Scripts/Session.cs",
+        "Assets/Scripts/Weapons/Item.cs",
+        "Assets/Scripts/Weapons/PlayerInventory.cs",
+        "Assets/Scripts/Weapons/WeaponHolderSlot.cs",
+        "Assets/Scripts/Weapons/WeaponItem.cs",
+        "Assets/Scripts/Weapons/WeaponSlotManager.cs",
         "C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp"
@@ -22413,11 +21954,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1648734,
-=======
-      "PayloadOffset": 1651516,
->>>>>>> Stashed changes
+      "PayloadOffset": 1651320,
       "PayloadLength": 9530,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -23595,11 +23132,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-<<<<<<< Updated upstream
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.InputSystem.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.InputSystem.ForUI.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.InputSystem.TestFramework.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\" -s=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
-=======
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.InputSystem.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.InputSystem.ForUI.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.InputSystem.TestFramework.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\\Newtonsoft.Json.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\" -s=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\" -s=\"C:\\Users\\geoga\\Documents\\Engineering\\Unity\\EBS\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
->>>>>>> Stashed changes
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\David\\Documents\\GitHub\\Erratic-Battle-Simulator\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\David\\Documents\\GitHub\\Erratic-Battle-Simulator\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.InputSystem.dll\" -a=\"C:\\Users\\David\\Documents\\GitHub\\Erratic-Battle-Simulator\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.InputSystem.ForUI.dll\" -a=\"C:\\Users\\David\\Documents\\GitHub\\Erratic-Battle-Simulator\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.InputSystem.TestFramework.dll\" -a=\"C:\\Users\\David\\Documents\\GitHub\\Erratic-Battle-Simulator\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\David\\Documents\\GitHub\\Erratic-Battle-Simulator\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\David\\Documents\\GitHub\\Erratic-Battle-Simulator\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\David\\Documents\\GitHub\\Erratic-Battle-Simulator\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\David\\Documents\\GitHub\\Erratic-Battle-Simulator\\Coliseum of the Gods\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\David\\Documents\\GitHub\\Erratic-Battle-Simulator\\Coliseum of the Gods\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\David\\Documents\\GitHub\\Erratic-Battle-Simulator\\Coliseum of the Gods\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\David\\Documents\\GitHub\\Erratic-Battle-Simulator\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\David\\Documents\\GitHub\\Erratic-Battle-Simulator\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\\Newtonsoft.Json.dll\" -a=\"C:\\Users\\David\\Documents\\GitHub\\Erratic-Battle-Simulator\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"C:\\Users\\David\\Documents\\GitHub\\Erratic-Battle-Simulator\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\David\\Documents\\GitHub\\Erratic-Battle-Simulator\\Coliseum of the Gods\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\David\\Documents\\GitHub\\Erratic-Battle-Simulator\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\Users\\David\\Documents\\GitHub\\Erratic-Battle-Simulator\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\" -s=\"C:\\Users\\David\\Documents\\GitHub\\Erratic-Battle-Simulator\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\" -s=\"C:\\Users\\David\\Documents\\GitHub\\Erratic-Battle-Simulator\\Coliseum of the Gods\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -23615,6 +23148,7 @@
         "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
         "Library/ScriptAssemblies/UnityEngine.UI.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
@@ -23799,6 +23333,9 @@
       "File": "Library/PackageCache/com.unity.inputsystem@1.11.1/Tests/TestFixture/csc.rsp"
     },
     {
+      "File": "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll"
+    },
+    {
       "File": "Library/PackageCache/com.unity.performance.profile-analyzer@1.2.2/Editor/csc.rsp"
     },
     {
@@ -23900,6 +23437,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1900b0aE.dag.json",
-  "PayloadsFile": "C:/Users/geoga/Documents/Engineering/Unity/EBS/Coliseum of the Gods/Library/Bee/1900b0aE.dag.payloads",
+  "PayloadsFile": "C:/Users/David/Documents/GitHub/Erratic-Battle-Simulator/Coliseum of the Gods/Library/Bee/1900b0aE.dag.payloads",
   "RelativePathToRoot": "../.."
 }
